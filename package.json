@@ -11,8 +11,8 @@
   },
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
-    "@react-three/drei": "^9.88.7",
-    "@react-three/fiber": "^8.15.8",
+    "@react-three/drei": "^9.88.9",
+    "@react-three/fiber": "^8.15.9",
     "autoprefixer": "^10.4.16",
     "framer-motion": "^10.16.4",
     "maath": "^0.10.4",
@@ -20,7 +20,8 @@
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.17.0",
     "react-tilt": "^1.0.2",
-    "react-vertical-timeline-component": "^3.6.0"
+    "react-vertical-timeline-component": "^3.6.0",
+    "three": "^0.158.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.15",
