@@ -15,9 +15,8 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
+  eye,
+  washu,
   shopify,
   carrent,
   jobit,
@@ -31,8 +30,8 @@ export const navLinks = [
     title: "About",
   },
   {
-    id: "work",
-    title: "Work",
+    id: "experience",
+    title: "Experience",
   },
   {
     id: "contact",
@@ -42,19 +41,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Fullstack Developer",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Mobile Application Developer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Web Application Developer",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Photographer Videographer",
     icon: creator,
   },
 ];
@@ -116,29 +115,29 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    title: "Software Engineering Intern",
+    company_name: "EyeLabsAI",
+    icon: eye,
+    iconBg: "#E6DEDD",
+    date: "July 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developing on a app called EyeSpace that serves as a reference tool that assists a third of ophthalmologists in the U.S. daily",
+      "Developed a new feature called the Sulcus Adjustment Calculator that is complete with tools doctors need for surgery and modified the UI/UX of the landing page",
+      "Expanded the UI/UX development using SwiftUI to make the app convenient and easy to use for busy doctors in looking up types of Implantable Collamer Lens (ICL) to retain users ",
+      "Developing a new updated backend database that ensures easy changes made to the various types of data for the ICL",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    title: "Teacher Assistant",
+    company_name: "Washington University in St. Louis",
+    icon: washu,
+    iconBg: "#383E56",
+    date: "Jan 2022 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Teacher Assistant for Introduction to Computer Science and Logic and Discrete Mathematics",
+      "Instructed students on core computer science concepts to facilitate learning and involved with grading of assessments weekly",
+      "Led small group of 3-4 students to enhance their understanding of the material and advised them on assignments to solidify content",
+      "Encouraged problem solving and critical thinking for each student to guide them creatively to the solution",
     ],
   },
   {
@@ -157,7 +156,7 @@ const experiences = [
   {
     title: "Full stack Developer",
     company_name: "Meta",
-    icon: meta,
+    icon: shopify,
     iconBg: "#E6DEDD",
     date: "Jan 2023 - Present",
     points: [

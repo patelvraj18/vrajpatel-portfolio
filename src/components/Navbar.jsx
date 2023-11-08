@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 
@@ -25,7 +26,7 @@ const Navbar = () => {
           {navLinks.map((Link) => (
             <li
               key={Link.id}
-              className={`${active === Link.title ? "text-white" : "text-secondary"} hover:text-white text-[18px] font-medium cursor-pointertext-[18px] font-medium cursor-pointer`}
+              className={`${active === Link.title ? "text-white" : "text-secondary"} hover:text-white text-[18px] cursor-pointertext-[18px] font-medium cursor-pointer`}
               onClick={() => { setActive(Link.title) }}
             >
               <a href={`#${Link.id}`}>{Link.title}</a>

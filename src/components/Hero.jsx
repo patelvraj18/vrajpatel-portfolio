@@ -1,3 +1,5 @@
+/* eslint-disable react/no-unescaped-entities */
+/* eslint-disable no-unused-vars */
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
@@ -25,7 +27,7 @@ const Hero = () => {
         </div>
       </div>
 
-      {/* <ComputersCanvas /> */}
+      <ComputersCanvas />
 
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
         <a href='#about'>
