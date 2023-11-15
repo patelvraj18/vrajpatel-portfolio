@@ -22,9 +22,8 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
 import eye from "./company/eye.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
 import washu from "./company/washu.png";
+import techmed from "./company/techmed.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -53,9 +52,8 @@ export {
   typescript,
   threejs,
   eye,
-  shopify,
-  starbucks,
   washu,
+  techmed,
   carrent,
   jobit,
   tripguide,
