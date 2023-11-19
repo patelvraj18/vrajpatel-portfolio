@@ -46,6 +46,22 @@
   background: -webkit-linear-gradient(-90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
 }
 
+.modern-blue-orange-gradient {
+  background: #003366;
+  /* Dark Blue */
+  background: linear-gradient(-90deg, #002850 0%, #0e5fb1 30%, #6aaff8 100%);
+  background: -webkit-linear-gradient(-90deg, #002850 0%, #0e5fb1 30%, #6aaff8 100%);
+}
+
+.diagonal-gradient-text {
+  background: linear-gradient(to bottom right, #002850 0%, #0e5fb1 50%, #6aaff8 100%);
+  background: -webkit-linear-gradient(to top,
+      #003366,
+      #ff6600);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .orange-text-gradient {
   background: #f12711;
   /* fallback for old browsers */

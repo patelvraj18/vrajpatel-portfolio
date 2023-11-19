@@ -6,10 +6,10 @@ export const mode = "jit";
 export const theme = {
   extend: {
     colors: {
-      primary: "#050816",
-      secondary: "#aaa6c3",
-      tertiary: "#151030",
-      "black-100": "#100d25",
+      primary: "#040C14",
+      secondary: "#A6B0C3",
+      tertiary: "#141E3D",
+      "black-100": "#0D1726",
       "black-200": "#090325",
       "white-100": "#f3f3f3",
     },
@@ -25,3 +25,5 @@ export const theme = {
   },
 };
 export const plugins = [];
+
+// 050E17

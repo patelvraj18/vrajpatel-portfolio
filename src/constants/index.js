@@ -4,24 +4,24 @@ import {
   creator,
   web,
   javascript,
-  typescript,
   html,
   css,
   reactjs,
-  redux,
-  tailwind,
-  nodejs,
-  mongodb,
+  threejs,
+  d3,
   git,
   figma,
-  docker,
   eye,
   washu,
   techmed,
   carrent,
   jobit,
   tripguide,
-  threejs,
+  firebase,
+  java,
+  swift,
+  cplusplus,
+  python,
 } from "../assets";
 
 export const navLinks = [
@@ -32,6 +32,10 @@ export const navLinks = [
   {
     id: "experience",
     title: "Experience",
+  },
+  {
+    id: "projects",
+    title: "Projects",
   },
   {
     id: "contact",
@@ -72,32 +76,37 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
     name: "React JS",
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
     name: "Three JS",
     icon: threejs,
+  },
+  {
+    name: "D3 JS",
+    icon: d3,
+  },
+  {
+    name: "Firebase",
+    icon: firebase,
+  },
+
+  {
+    name: "Java",
+    icon: java,
+  },
+  {
+    name: "C++",
+    icon: cplusplus,
+  },
+  {
+    name: "Python",
+    icon: python,
+  },
+  {
+    name: "Swift",
+    icon: swift,
   },
   {
     name: "git",
@@ -107,10 +116,7 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
-  {
-    name: "docker",
-    icon: docker,
-  },
+
 ];
 
 const experiences = [
