@@ -4,6 +4,8 @@ import { motion } from "framer-motion";
 
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
+import TypedText from './TypedText';
+import React from 'react';
 
 const Hero = () => {
   return (
@@ -21,8 +23,7 @@ const Hero = () => {
             Hi, I'm <span className='diagonal-gradient-text'>Vraj</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I develop web and mobile applications, <br className='sm:block hidden' />
-            user interfaces, and full-stack software.
+            I <TypedText />
           </p>
         </div>
       </div>

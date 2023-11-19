@@ -64,11 +64,11 @@ const services = [
 
 const technologies = [
   {
-    name: "HTML 5",
+    name: "HTML",
     icon: html,
   },
   {
-    name: "CSS 3",
+    name: "CSS",
     icon: css,
   },
   {
@@ -76,22 +76,21 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "React JS",
+    name: "React",
     icon: reactjs,
   },
   {
-    name: "Three JS",
+    name: "Three.js",
     icon: threejs,
   },
   {
-    name: "D3 JS",
+    name: "D3.js",
     icon: d3,
   },
   {
     name: "Firebase",
     icon: firebase,
   },
-
   {
     name: "Java",
     icon: java,
@@ -113,7 +112,7 @@ const technologies = [
     icon: git,
   },
   {
-    name: "figma",
+    name: "Figma",
     icon: figma,
   },
 
@@ -124,7 +123,7 @@ const experiences = [
     title: "Software Engineering Intern",
     company_name: "EyeLabsAI",
     icon: eye,
-    iconBg: "#E6DEDD",
+    iconBg: "#1e2333",
     date: "July 2023 - Present",
     points: [
       "Developing on a app called EyeSpace that serves as a reference tool that assists a 3rd of ophthalmologists in the U.S. daily with 1000s of users",
@@ -137,7 +136,7 @@ const experiences = [
     title: "Teacher Assistant",
     company_name: "Washington University in St. Louis",
     icon: washu,
-    iconBg: "#383E56",
+    iconBg: "#f7f7f7",
     date: "Jan 2022 - Present",
     points: [
       "Teacher Assistant (TA) for Introduction to Computer Science and Logic and Discrete Mathematics",
@@ -151,7 +150,7 @@ const experiences = [
     title: "Co-Founder & Experience Chair",
     company_name: "TechxMed",
     icon: techmed,
-    iconBg: "#E6DEDD",
+    iconBg: "#f7f7f7",
     date: "July 2023 - Present",
     points: [
       "Co-founded TechxMed, a pioneering club at WashU dedicated to exploring the intersection of technology and medicine, fostering a community for like-minded enthusiasts with over 110+ members",
