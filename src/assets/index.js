@@ -3,6 +3,7 @@ import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
+import close from "./close.svg";
 
 import css from "./tech/css.png";
 import figma from "./tech/figma.png";
@@ -18,7 +19,6 @@ import swift from "./tech/swift.png"
 import cplusplus from "./tech/c++.png"
 import python from "./tech/python.png"
 import firebase from "./tech/firebase.png";
-import close from "./tech/close.png";
 
 import eye from "./company/eye.png";
 import washu from "./company/washu.png";
