@@ -29,7 +29,7 @@ This portfolio is not just a showcase of my work, it's a journey through a respo
 
 ## Explore
 
-Dive into my digital space and explore my journey, skills, and the projects that I'm passionate about. Experience the portfolio [here](vrajpatel.pages.dev).
+Dive into my digital space and explore my journey, skills, and the projects that I'm passionate about. Experience the portfolio [here](http://www.vrajpatel.pages.dev).
 
 ---
 
