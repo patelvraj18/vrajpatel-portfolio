@@ -18,6 +18,7 @@ import swift from "./tech/swift.png"
 import cplusplus from "./tech/c++.png"
 import python from "./tech/python.png"
 import firebase from "./tech/firebase.png";
+import close from "./tech/close.png";
 
 import eye from "./company/eye.png";
 import washu from "./company/washu.png";
@@ -53,4 +54,5 @@ export {
   swift,
   cplusplus,
   python,
+  close,
 };
