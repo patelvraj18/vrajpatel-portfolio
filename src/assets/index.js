@@ -4,6 +4,7 @@ import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
 import close from "./close.svg";
+import menu from "./menu.svg";
 
 import css from "./tech/css.png";
 import figma from "./tech/figma.png";
@@ -55,4 +56,5 @@ export {
   cplusplus,
   python,
   close,
+  menu,
 };
