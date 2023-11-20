@@ -66,7 +66,7 @@ export const navLinks = [
 const services = [
   {
     title: "Fullstack Developer",
-    icon: web,
+    icon: backend,
   },
   {
     title: "Mobile Application Developer",
@@ -74,7 +74,7 @@ const services = [
   },
   {
     title: "Web Application Developer",
-    icon: backend,
+    icon: web,
   },
   {
     title: "Photographer Videographer",
@@ -193,22 +193,31 @@ const experiences = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Fairytale Sentiment Analysis",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Natural Language Processing (NLP) project that analyzes the sentiment - either positive, neutral, or negative emotions - of various fairytales to make visualization by using D3.js and use machine learning models as well (RoBERTa). Reveals important data about how it impacts children's perceptions through various graphs",
     tags: [
       {
-        name: "react",
+        name: "JavaScript",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "D3.js",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Python",
         color: "pink-text-gradient",
       },
+      {
+        name: "NLP",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "PyTorch",
+        color: "pink-text-gradient",
+      },
+
     ],
     image: carrent,
     source_code_link: "https://github.com/",
