@@ -7,6 +7,8 @@ import linkedln from "./linkedln.png";
 import close from "./close.svg";
 import menu from "./menu.svg";
 import email from "./email.png"
+import fairytale from "./fairytale.png";
+import link from "./link.png";
 
 import css from "./tech/css.png";
 import figma from "./tech/figma.png";
@@ -27,10 +29,6 @@ import eye from "./company/eye.png";
 import washu from "./company/washu.png";
 import techmed from "./company/techmed.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
-
 export {
   backend,
   creator,
@@ -50,9 +48,6 @@ export {
   eye,
   washu,
   techmed,
-  carrent,
-  jobit,
-  tripguide,
   java,
   swift,
   cplusplus,
@@ -61,4 +56,6 @@ export {
   menu,
   linkedln,
   email,
+  fairytale,
+  link,
 };

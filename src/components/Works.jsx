@@ -5,12 +5,15 @@
 import { Tilt } from 'react-tilt'
 import { motion } from 'framer-motion';
 import { styles } from '../styles';
-import { github } from '../assets';
+import { github, link } from '../assets';
 import { SectionWrapper } from '../hoc';
 import { projects } from '../constants';
 import { fadeIn, textVariant } from '../utils/motion';
 
-const ProjectCard = ({ index, name, description, tags, image, source_code_link }) => {
+const ProjectCard = ({ id, index, name, description, tags, image, source_code_link, live_link }) => {
+  const githubIds = ['fairy'];
+  const liveLinkId = ['fairy'];
+
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
       <Tilt
@@ -27,11 +30,19 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
             alt='project_image'
             className='w-full h-full object-cover rounded-2xl'
           />
-          {/* can add another div for live url */}
-          <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
-            <div onClick={() => window.open(source_code_link, "_blank")} className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer">
-              <img src={github} alt="github" className="w-1/2 h-1/2 object-contain" />
-            </div>
+          <div className="absolute top-3 right-3 flex space-x-2">
+            {/* Conditionally render live link icon */}
+            {liveLinkId.includes(id) && (
+              <div onClick={() => window.open(live_link, "_blank")} className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer">
+                <img src={link} alt="live_link" className="w-1/2 h-1/2 object-contain" />
+              </div>
+            )}
+            {/* Conditionally render GitHub icon */}
+            {githubIds.includes(id) && (
+              <div onClick={() => window.open(source_code_link, "_blank")} className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer">
+                <img src={github} alt="github" className="w-1/2 h-1/2 object-contain" />
+              </div>
+            )}
           </div>
         </div>
 
@@ -52,6 +63,7 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
   )
 }
 
+
 const Works = () => {
   return (
     <>
@@ -71,7 +83,7 @@ const Works = () => {
 
       <div className='mt-20 flex flex-wrap gap-7'>
         {projects.map((project, index) => (
-          <ProjectCard key={`project-${index}`} index={index} {...project} />
+          <ProjectCard key={`project-${index}`} index={index} id={project.id} {...project} />
         ))}
       </div>
     </>

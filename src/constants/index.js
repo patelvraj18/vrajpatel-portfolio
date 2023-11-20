@@ -20,12 +20,11 @@ import {
   swift,
   cplusplus,
   python,
-  carrent,
-  jobit,
-  tripguide,
   github,
   linkedln,
-  email
+  email,
+  fairytale,
+  link,
 } from "../assets";
 
 export const navLinks = [
@@ -198,71 +197,42 @@ const projects = [
       "Natural Language Processing (NLP) project that analyzes the sentiment - either positive, neutral, or negative emotions - of various fairytales to make visualization by using D3.js and use machine learning models as well (RoBERTa). Reveals important data about how it impacts children's perceptions through various graphs",
     tags: [
       {
+        name: "HTML",
+        color: "red-darker-red-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "blue-darker-text-gradient",
+      },
+      {
         name: "JavaScript",
-        color: "blue-text-gradient",
+        color: "yellow-darker-yellow-text-gradient",
       },
       {
         name: "D3.js",
-        color: "green-text-gradient",
+        color: "orange-darker-text-gradient",
       },
       {
         name: "Python",
-        color: "pink-text-gradient",
+        color: "blue-yellow-text-gradient",
       },
       {
         name: "NLP",
-        color: "pink-text-gradient",
+        color: "blue-different-text-gradient",
       },
       {
         name: "PyTorch",
-        color: "pink-text-gradient",
-      },
-
-    ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
+        color: "red-different-text-gradient",
       },
       {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
+        name: "RoBERTa",
+        color: "green-roberta-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: fairytale,
+    source_code_link: "https://github.com/patelvraj18/ml-sentiment-analysis-englishfairytales",
+    live_link: "https://fairytales-analysis.vercel.app/",
+    id: "fairy",
   },
 ];
 
