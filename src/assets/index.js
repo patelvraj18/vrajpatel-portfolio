@@ -3,6 +3,7 @@ import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
+import linkedln from "./linkedln.png";
 import close from "./close.svg";
 import menu from "./menu.svg";
 
@@ -57,4 +58,5 @@ export {
   python,
   close,
   menu,
+  linkedln,
 };

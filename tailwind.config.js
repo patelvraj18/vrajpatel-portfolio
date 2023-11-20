@@ -18,6 +18,7 @@ export const theme = {
     },
     screens: {
       xs: "450px",
+      'mdv2': '960px',
     },
     backgroundImage: {
       "hero-pattern": "url('/src/assets/herobg.png')",

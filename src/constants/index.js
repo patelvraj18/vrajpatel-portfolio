@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import {
   mobile,
   backend,
@@ -22,6 +23,8 @@ import {
   carrent,
   jobit,
   tripguide,
+  github,
+  linkedln
 } from "../assets";
 
 export const navLinks = [
@@ -34,6 +37,10 @@ export const navLinks = [
     title: "Experience",
   },
   {
+    id: "skills",
+    title: "Skills",
+  },
+  {
     id: "projects",
     title: "Projects",
   },
@@ -41,6 +48,14 @@ export const navLinks = [
     id: "contact",
     title: "Contact",
   },
+  {
+    id: "linkedin",
+    icon: linkedln,
+  },
+  {
+    id: "github",
+    icon: github,
+  }
 ];
 
 const services = [

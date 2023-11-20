@@ -33,6 +33,6 @@ Dive into my digital space and explore my journey, skills, and the projects that
 
 ---
 
-Your feedback and inquiries are always welcome. Feel free to reach out by the contact page or by p.vraj@wustl.edu | vrajpatel5089@gmail.com.
+Your feedback and inquiries are always welcome. Feel free to reach out by the contact page or by vrajpatel6147@gmail.com!
 
 Thank you for visiting, and enjoy your stay! ✌🏽
