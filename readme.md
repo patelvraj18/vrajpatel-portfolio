@@ -4,6 +4,8 @@ Hey! 👋🏽
 
 Welcome to my personal 3D Interactive Portfolio - a cutting-edge web experience that combines the immersive power of three.js with the modern capabilities of today's frontend development tools of React and Tailwind CSS.
 
+## [See My 3D Interactive Portfolio Right Now](https://vrajpatel.vercel.app/) 
+
 ## Overview
 
 This portfolio is not just a showcase of my work, it's a journey through a responsive 3D space, crafted to highlight my skills and projects in an engaging and interactive manner. Each element is a window into a different facet of my professional work, offering a unique and memorable way to explore my capabilities and achievements.
@@ -27,12 +29,8 @@ This portfolio is not just a showcase of my work, it's a journey through a respo
 - **Three.js**: Complex 3D graphics rendered directly in the web browser for a rich, interactive portfolio.
 - **Tailwind CSS**: A utility-first CSS framework for custom, responsive design with minimal styling effort.
 
-## Explore
-
-Dive into my digital space and explore my journey, skills, and the projects that I'm passionate about. [Experience the portfolio](https://vrajpatel.vercel.app/)
-
 ---
 
-Your feedback and inquiries are always welcome. Feel free to reach out by the contact page or by vrajpatel6147@gmail.com!
+Your feedback and inquiries are always welcome. Feel free to reach out by the contact page on the website or by vrajpatel6147@gmail.com!
 
 Thank you for visiting, and enjoy your stay! ✌🏽
