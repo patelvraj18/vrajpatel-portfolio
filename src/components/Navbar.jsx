@@ -37,9 +37,19 @@ const Navbar = () => {
               </li>
             ) : (
               <li key={item.id} className="hover:text-white text-secondary text-[18px] font-medium cursor-pointer">
-                <a href={item.id === 'github' ? 'https://github.com/patelvraj18' : 'https://linkedin.com/in/vraj-patel01'} target="_blank" rel="noopener noreferrer" className="black-gradient w-8 h-8 rounded-full flex justify-center items-center cursor-pointer">
+                <a
+                  href={
+                    item.id === 'github' ? 'https://github.com/patelvraj18' :
+                      item.id === 'linkedin' ? 'https://linkedin.com/in/vraj-patel01' :
+                        item.id === 'email' ? 'mailto:vrajpatel6147@gmail.com' : '#'
+                  }
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="black-gradient w-8 h-8 rounded-full flex justify-center items-center cursor-pointer"
+                >
                   <img src={item.icon} alt={`${item.id} icon`} className="w-1/2 h-1/2 object-contain" />
                 </a>
+
               </li>
             )
           ))}
@@ -59,9 +69,20 @@ const Navbar = () => {
                 {item.title ? (
                   <a href={`#${item.id}`} onClick={() => handleLinkClick(item.id)}>{item.title}</a>
                 ) : (
-                  <a href={item.id === 'github' ? 'https://github.com/patelvraj18' : 'https://linkedin.com/in/vraj-patel01'} target="_blank" rel="noopener noreferrer" onClick={() => handleLinkClick(item.id)} className="flex items-center justify-center w-8 h-8 rounded-full cursor-pointer ml-7">
+                  <a
+                    href={
+                      item.id === 'github' ? 'https://github.com/patelvraj18' :
+                        item.id === 'linkedin' ? 'https://linkedin.com/in/vraj-patel01' :
+                          item.id === 'email' ? 'mailto:vrajpatel6147@gmail.com' : '#'
+                    }
+                    target={item.id === 'email' ? '_self' : '_blank'}
+                    rel={item.id === 'email' ? '' : 'noopener noreferrer'}
+                    onClick={() => handleLinkClick(item.id)}
+                    className="flex items-center justify-center w-8 h-8 rounded-full cursor-pointer ml-7"
+                  >
                     <img src={item.icon} alt={`${item.id} icon`} className="w-1/2 h-1/2 object-contain" />
                   </a>
+
                 )}
               </li>
             ))}

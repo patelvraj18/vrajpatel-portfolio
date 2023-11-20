@@ -6,6 +6,7 @@ import github from "./github.png";
 import linkedln from "./linkedln.png";
 import close from "./close.svg";
 import menu from "./menu.svg";
+import email from "./email.png"
 
 import css from "./tech/css.png";
 import figma from "./tech/figma.png";
@@ -59,4 +60,5 @@ export {
   close,
   menu,
   linkedln,
+  email,
 };

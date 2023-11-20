@@ -24,7 +24,8 @@ import {
   jobit,
   tripguide,
   github,
-  linkedln
+  linkedln,
+  email
 } from "../assets";
 
 export const navLinks = [
@@ -55,6 +56,10 @@ export const navLinks = [
   {
     id: "github",
     icon: github,
+  },
+  {
+    id: "email",
+    icon: email,
   }
 ];
 
