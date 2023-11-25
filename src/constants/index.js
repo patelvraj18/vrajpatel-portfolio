@@ -53,6 +53,10 @@ import {
   screen8db,
   screen9db,
   dogsinnyc,
+  president,
+  screenpres1,
+  screenpres2,
+  screenpres3,
 } from "../assets";
 
 export const navLinks = [
@@ -414,36 +418,32 @@ const projects = [
     line_break: "\n",
   },
   {
-    name: "Movie Database Library App",
+    name: "US Presidential Elections From 1940 to 2020 ",
     description:
-      "A mobile app created through Swift and Xcode that allows users to search for Movies and TV shows and add them to their favorites. Users can see a dynamic view of their favorite movies and TV shows including descriptions, where to watch, and other notable information retried through MovieData API. Users can get wallpapers from the Movie or TV Show cover to add to them photo gallery",
+      "This interactive website complete with a timeline and a map of the United State shows the results of the US Presidential Elections from 1940 to 2020. It uses D3.js to visualize the results of the elections by state and year. The website also shows the popular vote and electoral vote for each election for all candidates in a stacked bar chart. The website shows a heated map of the results of the elections by state. \n",
     tags: [
       {
-        name: "Swift",
-        color: "swift-gradient",
+        name: "HTML",
+        color: "red-darker-red-text-gradient",
       },
       {
-        name: "Xcode",
-        color: "xcode-gradient",
+        name: "CSS",
+        color: "blue-darker-text-gradient",
       },
       {
-        name: "IOS",
-        color: "ios-gradient",
+        name: "JavaScript",
+        color: "yellow-darker-yellow-text-gradient",
       },
       {
-        name: "MovieData API",
-        color: "movie-database",
-      },
-      {
-        name: "UIKit",
-        color: "ui-component-text-gradient",
+        name: "D3.js",
+        color: "orange-darker-text-gradient",
       },
     ],
-    image: movie,
-    id: "movie",
-    title: "Movie Database Library App",
-    subtitle: "View various screenshots of the app above. \n \n Notable implementations include: a search feature to see various movies or tv-show; detailed view presenting score of production, description, and release data; interactive features to add to favorites, see where to watch, and add to photo gallery; a favorites page to see all your favorite movies and tv-shows; and within photo gallery you can see all the wallpapers you have saved from your favorite movies and tv-shows.",
-    images: [screen1db, screen2db, screen3db, screen4db, screen5db, screen6db, screen7db, screen8db, screen9db]
+    image: president,
+    id: "president",
+    title: "US Presidential Elections From 1940 to 2020",
+    subtitle: "View various screenshots of the app above. \n \n Notable implementations include: a timeline to see the results of the elections by year; a heat map of the United States to see the results of the elections by state by electoral vote; a stacked bar chart to see the popular vote and electoral vote for each election for all candidates; and a legend to see the color scheme of the heat map.",
+    images: [screenpres1, screenpres2, screenpres3]
   },
 ];
 

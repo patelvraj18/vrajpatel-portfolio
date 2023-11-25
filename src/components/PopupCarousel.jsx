@@ -33,7 +33,7 @@ const PopupCarousel = ({ isVisible, onClose, images, title, subtitle }) => {
           <img src={closeX} alt="Close" className="w-4 h-4" />
         </button>
         <h1 className="text-white font-bold text-[24px] text-center mb-5">{title}</h1>
-        <Carousel showThumbs={false} dynamicHeight={true} emulateTouch={true} selectedItem={3}>
+        <Carousel showThumbs={false} dynamicHeight={true} emulateTouch={true} selectedItem={0}>
           {images.map((image, index) => (
             <div key={index} className="flex justify-center items-center">
               <img src={image} alt={`Carousel item ${index}`} className='max-h-[60vh] object-contain' />

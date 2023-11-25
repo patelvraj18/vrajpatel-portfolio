@@ -15,6 +15,7 @@ import vrajcreates from "./vrajcreates.png";
 import portfolio from "./portfolio.png";
 import movie from "./movie.png";
 import dogsinnyc from "./dogsinnyc.png";
+import president from "./president.png";
 
 import css from "./tech/css.png";
 import figma from "./tech/figma.png";
@@ -59,6 +60,10 @@ import screen6db from "./screensdb/screen6.png";
 import screen7db from "./screensdb/screen7.png";
 import screen8db from "./screensdb/screen8.png";
 import screen9db from "./screensdb/screen9.png";
+
+import screenpres1 from "./screenspresident/screen1president.png";
+import screenpres2 from "./screenspresident/screen2president.png";
+import screenpres3 from "./screenspresident/screen3president.png";
 
 export {
   backend,
@@ -118,4 +123,8 @@ export {
   screen8db,
   screen9db,
   dogsinnyc,
+  president,
+  screenpres1,
+  screenpres2,
+  screenpres3,
 };
