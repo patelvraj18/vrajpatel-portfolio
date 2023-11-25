@@ -307,7 +307,7 @@ const projects = [
   {
     name: "Vraj Patel's Portfolio Website",
     description:
-      "[enter in stuff]",
+      "My personal 3D Interactive Portfolio showcases my professional work through a responsive 3D space using 3d models and careful consideration of front-end design. It features interactive animations and dynamic content, offering a unique exploration of my skills and projects. Designed with modern web development practices, the portfolio presents each element as an engaging window, ensuring accessibility and a captivating user experience on any device.",
     tags: [
       {
         name: "HTML",
@@ -322,8 +322,16 @@ const projects = [
         color: "yellow-darker-yellow-text-gradient",
       },
       {
-        name: "[enter in stuff]",
-        color: "orange-darker-text-gradient",
+        name: "React.js",
+        color: "react-native-gradient",
+      },
+      {
+        name: "Three.js",
+        color: "threejs-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "tailwind-css-gradient",
       },
       {
         name: "Git",
