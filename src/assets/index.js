@@ -11,6 +11,7 @@ import fairytale from "./fairytale.png";
 import chalk from "./chalk.png";
 import link from "./link.png";
 import closeX from "./closeX.png";
+import vrajcreates from "./vrajcreates.png";
 
 import css from "./tech/css.png";
 import figma from "./tech/figma.png";
@@ -91,4 +92,5 @@ export {
   screen13,
   screen14,
   closeX,
+  vrajcreates,
 };

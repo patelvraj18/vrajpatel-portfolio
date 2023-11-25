@@ -40,6 +40,7 @@ import {
   screen12,
   screen13,
   screen14,
+  vrajcreates
 } from "../assets";
 
 export const navLinks = [
@@ -196,11 +197,14 @@ const experiences = [
   {
     title: "Founder & Owner",
     company_name: "vrajcreates",
-    icon: washu,
-    iconBg: "#383E56",
+    icon: vrajcreates,
+    iconBg: "#ffffff",
     date: "May 2022 - Present",
     points: [
-      "",
+      "Founded a self-driven photography, videography, and multimedia business with over 65+ clients served over various projects and shoots",
+      "Creatively produce for clients in Memphis and St. Louis areas, specialized in capturing genuine, candid moments to deliver high-quality storytelling media",
+      "Experience of work includes wedding videography, real estate agent photography, college and high school portraits for senior and graduation photos, and styled creative photoshoots, ",
+      "Self taught in DaVinci Resolve, Adobe Premiere Pro, Adobe Lightroom, Adobe Photoshop, Adobe After Effects, and Adobe Illustrator to edit and produce high quality media for clients",
     ],
   },
 ];
