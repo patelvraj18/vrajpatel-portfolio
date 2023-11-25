@@ -254,7 +254,7 @@ const projects = [
     id: "fairy",
   },
   {
-    name: "Chalk - Daily Prompts for College Students",
+    name: "Chalk ~ Daily Prompts for College Students",
     description:
       "A mobile app developed using React Native with JS, Expo, Node.js, and Firebase tailored to college students features random, anonymous engaging daily prompts that goes off at random time during the day. Users respond to a question that is tailored to them and their overall location. Users can also see a feed of their friend network and be able to interact with likes and comments in a thread like fashion. ",
     tags: [
@@ -295,7 +295,7 @@ const projects = [
     image: chalk,
     source_code_link: "https://github.com/patelvraj18/chalk---social-media-app",
     id: "chalk",
-    title: "Chalk - Daily Prompts for College Students",
+    title: "Chalk ~ Daily Prompts for College Students",
     subtitle: "View various screenshots of the app above. \n \n Notable implementations include: a launch page, signup/login pages with authentication of college email, scrollable feed page, a profile page with a detailed functional setting page, a comment page within a particular post, a discover feature to see local to your area, search by username feature, ability to see other people's profile and develop friends in a network, chat with friends feature, internal clock system with a ability to post every 24 hours at a random time, and lastly public/private friend network ability.",
     images: [screen1, screen2, screen3, screen4, screen5, screen6, screen7, screen8, screen9, screen10, screen11, screen12, screen13, screen14],
   }
