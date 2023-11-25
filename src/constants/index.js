@@ -40,7 +40,8 @@ import {
   screen12,
   screen13,
   screen14,
-  vrajcreates
+  vrajcreates,
+  portfolio,
 } from "../assets";
 
 export const navLinks = [
@@ -211,6 +212,52 @@ const experiences = [
 
 const projects = [
   {
+    name: "Chalk ~ Daily Prompts for College Students",
+    description:
+      "A mobile app developed using React Native with JS, Expo, Node.js, and Firebase tailored to college students features random, anonymous engaging daily prompts that goes off at random time during the day. Users respond to a question that is tailored to them and their overall location. Users can also see a feed of their friend network and be able to interact with likes and comments in a thread like fashion. ",
+    tags: [
+      {
+        name: "React Native",
+        color: "react-native-gradient",
+      },
+      {
+        name: "JavaScript",
+        color: "yellow-darker-yellow-text-gradient",
+      },
+      {
+        name: "Firebase",
+        color: "orange-darker-text-firebase-gradient",
+      },
+      {
+        name: "Expo",
+        color: "expo-gradient",
+      },
+      {
+        name: "Node.js",
+        color: "green-nodejs-gradient",
+      },
+      {
+        name: "IOS Native UI Components",
+        color: "ui-component-text-gradient",
+      },
+      {
+        name: "IOS",
+        color: "ios-gradient",
+      },
+      {
+        name: "Git",
+        color: "git-gradient",
+      }
+
+    ],
+    image: chalk,
+    source_code_link: "https://github.com/patelvraj18/chalk---social-media-app",
+    id: "chalk",
+    title: "Chalk ~ Daily Prompts for College Students",
+    subtitle: "View various screenshots of the app above. \n \n Notable implementations include: a launch page, signup/login pages with authentication of college email, scrollable feed page, a profile page with a detailed functional setting page, a comment page within a particular post, a discover feature to see local to your area, search by username feature, ability to see other people's profile and develop friends in a network, chat with friends feature, internal clock system with a ability to post every 24 hours at a random time, and lastly public/private friend network ability.",
+    images: [screen1, screen2, screen3, screen4, screen5, screen6, screen7, screen8, screen9, screen10, screen11, screen12, screen13, screen14],
+  },
+  {
     name: "Fairytale Sentiment Analysis",
     description:
       "Natural Language Processing (NLP) project that analyzes the sentiment - either positive, neutral, or negative emotions - of various fairytales to make visualization by using D3.js and use machine learning models as well (RoBERTa). Reveals important data about how it impacts children's perceptions through various graphs",
@@ -258,51 +305,35 @@ const projects = [
     id: "fairy",
   },
   {
-    name: "Chalk ~ Daily Prompts for College Students",
+    name: "Vraj Patel's Portfolio Website",
     description:
-      "A mobile app developed using React Native with JS, Expo, Node.js, and Firebase tailored to college students features random, anonymous engaging daily prompts that goes off at random time during the day. Users respond to a question that is tailored to them and their overall location. Users can also see a feed of their friend network and be able to interact with likes and comments in a thread like fashion. ",
+      "[enter in stuff]",
     tags: [
       {
-        name: "React Native",
-        color: "react-native-gradient",
+        name: "HTML",
+        color: "red-darker-red-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "blue-darker-text-gradient",
       },
       {
         name: "JavaScript",
         color: "yellow-darker-yellow-text-gradient",
       },
       {
-        name: "Firebase",
-        color: "orange-darker-text-firebase-gradient",
-      },
-      {
-        name: "Expo",
-        color: "expo-gradient",
-      },
-      {
-        name: "Node.js",
-        color: "green-nodejs-gradient",
-      },
-      {
-        name: "IOS Native UI Components",
-        color: "ui-component-text-gradient",
-      },
-      {
-        name: "IOS",
-        color: "ios-gradient",
+        name: "[enter in stuff]",
+        color: "orange-darker-text-gradient",
       },
       {
         name: "Git",
         color: "git-gradient",
       }
-
     ],
-    image: chalk,
-    source_code_link: "https://github.com/patelvraj18/chalk---social-media-app",
-    id: "chalk",
-    title: "Chalk ~ Daily Prompts for College Students",
-    subtitle: "View various screenshots of the app above. \n \n Notable implementations include: a launch page, signup/login pages with authentication of college email, scrollable feed page, a profile page with a detailed functional setting page, a comment page within a particular post, a discover feature to see local to your area, search by username feature, ability to see other people's profile and develop friends in a network, chat with friends feature, internal clock system with a ability to post every 24 hours at a random time, and lastly public/private friend network ability.",
-    images: [screen1, screen2, screen3, screen4, screen5, screen6, screen7, screen8, screen9, screen10, screen11, screen12, screen13, screen14],
-  }
+    image: portfolio,
+    source_code_link: "https://github.com/patelvraj18/vrajpatel-portfolio",
+    id: "portfolio",
+  },
 ];
 
 

@@ -12,6 +12,7 @@ import chalk from "./chalk.png";
 import link from "./link.png";
 import closeX from "./closeX.png";
 import vrajcreates from "./vrajcreates.png";
+import portfolio from "./portfolio.png";
 
 import css from "./tech/css.png";
 import figma from "./tech/figma.png";
@@ -93,4 +94,5 @@ export {
   screen14,
   closeX,
   vrajcreates,
+  portfolio,
 };

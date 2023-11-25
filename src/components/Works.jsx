@@ -14,7 +14,7 @@ import PopupCarousel from './PopupCarousel';
 import { useState } from 'react';
 
 const ProjectCard = ({ id, index, name, description, tags, image, source_code_link, live_link, title, subtitle, images }) => {
-  const githubIds = ['fairy', 'chalk'];
+  const githubIds = ['fairy', 'chalk', 'portfolio'];
   const liveLinkId = ['fairy'];
   const popupIDs = ['chalk'];
 
@@ -38,11 +38,6 @@ const ProjectCard = ({ id, index, name, description, tags, image, source_code_li
           }}
           className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'
         >
-          {popupIDs.includes(id) && (
-            <div className="text-center text-red-500 font-bold uppercase mb-3 cursor-pointer underline italic">
-              Click Me For More Details
-            </div>
-          )}
           <div className='relative w-full h-[230px]'>
             <img
               src={image}
@@ -77,6 +72,11 @@ const ProjectCard = ({ id, index, name, description, tags, image, source_code_li
               </p>
             ))}
           </div>
+          {popupIDs.includes(id) && (
+            <div className="text-center text-red-500 font-bold uppercase mt-5 mb-3 cursor-pointer underline italic">
+              Click Me For More Details
+            </div>
+          )}
         </Tilt>
       </motion.div>
 
