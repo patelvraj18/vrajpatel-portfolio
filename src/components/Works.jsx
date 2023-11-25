@@ -11,12 +11,13 @@ import { SectionWrapper } from '../hoc';
 import { projects } from '../constants';
 import { fadeIn, textVariant } from '../utils/motion';
 import PopupCarousel from './PopupCarousel';
-import { useState } from 'react';
+import React, { useState, useEffect, useRef } from "react";
 
-const ProjectCard = ({ id, index, name, description, tags, image, source_code_link, live_link, title, subtitle, images }) => {
+
+const ProjectCard = ({ id, index, name, description, tags, image, source_code_link, live_link, title, subtitle, images, cardHeight, line_break }) => {
   const githubIds = ['fairy', 'chalk', 'portfolio'];
   const liveLinkId = ['fairy'];
-  const popupIDs = ['chalk'];
+  const popupIDs = ['chalk', 'movie'];
 
   const [showPopup, setShowPopup] = useState(false);
   const additionalImages = images;
@@ -26,6 +27,22 @@ const ProjectCard = ({ id, index, name, description, tags, image, source_code_li
       setShowPopup(true);
     }
   };
+
+  const descriptionWithLineBreaks = description ? description.split('\n').map((text, idx) => (
+    <React.Fragment key={idx}>
+      {text}
+      <br />
+    </React.Fragment>
+  )) : '';
+
+  const lineBreakAnalysis = line_break ? line_break.split('\n').map((item, index) => (
+    <React.Fragment key={index}>
+      {item}
+      <br />
+    </React.Fragment>
+  )) : '';
+
+
 
   return (
     <>
@@ -62,7 +79,7 @@ const ProjectCard = ({ id, index, name, description, tags, image, source_code_li
 
           <div className="mt-5">
             <h3 className="text-white font-bold text-[24px]">{name}</h3>
-            <p className="mt-2 text-secondary text-[14px]">{description}</p>
+            <p className="mt-2 text-secondary text-[14px]">{descriptionWithLineBreaks}</p>
           </div>
 
           <div className="mt-4 flex flex-wrap gap-2">
@@ -72,6 +89,7 @@ const ProjectCard = ({ id, index, name, description, tags, image, source_code_li
               </p>
             ))}
           </div>
+          <div>{lineBreakAnalysis}</div>
           {popupIDs.includes(id) && (
             <div className="text-center text-red-500 font-bold uppercase mt-5 mb-3 cursor-pointer underline italic">
               Click Me For More Details
@@ -97,6 +115,14 @@ const ProjectCard = ({ id, index, name, description, tags, image, source_code_li
 
 
 const Works = () => {
+  const [maxHeight, setMaxHeight] = useState(0);
+  const cardRefs = useRef([]);
+
+  useEffect(() => {
+    const maxCardHeight = cardRefs.current.reduce((max, card) => Math.max(card.offsetHeight, max), 0);
+    setMaxHeight(maxCardHeight);
+  }, []);
+
   return (
     <>
       <motion.div variants={textVariant()}>
@@ -115,7 +141,9 @@ const Works = () => {
 
       <div className='mt-20 flex flex-wrap gap-7'>
         {projects.map((project, index) => (
-          <ProjectCard key={`project-${index}`} index={index} id={project.id} {...project} />
+          <div ref={(el) => (cardRefs.current[index] = el)} key={`project-${index}`}>
+            <ProjectCard key={`project-${index}`} index={index} id={project.id} {...project} cardHeight={maxHeight + 'px'} />
+          </div>
         ))}
       </div>
     </>

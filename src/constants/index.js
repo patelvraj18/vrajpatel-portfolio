@@ -42,6 +42,16 @@ import {
   screen14,
   vrajcreates,
   portfolio,
+  movie,
+  screen1db,
+  screen2db,
+  screen3db,
+  screen4db,
+  screen5db,
+  screen6db,
+  screen7db,
+  screen8db,
+  screen9db,
 } from "../assets";
 
 export const navLinks = [
@@ -237,7 +247,7 @@ const projects = [
         color: "green-nodejs-gradient",
       },
       {
-        name: "IOS Native UI Components",
+        name: "Native UI Components",
         color: "ui-component-text-gradient",
       },
       {
@@ -260,7 +270,7 @@ const projects = [
   {
     name: "Fairytale Sentiment Analysis",
     description:
-      "Natural Language Processing (NLP) project that analyzes the sentiment - either positive, neutral, or negative emotions - of various fairytales to make visualization by using D3.js and use machine learning models as well (RoBERTa). Reveals important data about how it impacts children's perceptions through various graphs",
+      "\n Natural Language Processing (NLP) project that analyzes the sentiment - either positive, neutral, or negative emotions - of various fairytales to make visualization by using D3.js and use machine learning models as well (RoBERTa). Reveals important data about how it impacts children's perceptions through various graphs \n",
     tags: [
       {
         name: "HTML",
@@ -299,6 +309,7 @@ const projects = [
         color: "git-gradient",
       }
     ],
+    line_break: "\n",
     image: fairytale,
     source_code_link: "https://github.com/patelvraj18/ml-sentiment-analysis-englishfairytales",
     live_link: "https://fairytales-analysis.vercel.app/",
@@ -341,6 +352,102 @@ const projects = [
     image: portfolio,
     source_code_link: "https://github.com/patelvraj18/vrajpatel-portfolio",
     id: "portfolio",
+  },
+  {
+    name: "Movie Database Library App",
+    description:
+      "A mobile app created through Swift and Xcode that allows users to search for Movies and TV shows and add them to their favorites. Users can see a dynamic view of their favorite movies and TV shows including descriptions, where to watch, and other notable information retried through MovieData API. Users can get wallpapers from the Movie or TV Show cover to add to them photo gallery",
+    tags: [
+      {
+        name: "Swift",
+        color: "swift-gradient",
+      },
+      {
+        name: "Xcode",
+        color: "xcode-gradient",
+      },
+      {
+        name: "IOS",
+        color: "ios-gradient",
+      },
+      {
+        name: "MovieData API",
+        color: "movie-database",
+      },
+      {
+        name: "UIKit",
+        color: "ui-component-text-gradient",
+      },
+    ],
+    image: movie,
+    id: "movie",
+    title: "Movie Database Library App",
+    subtitle: "View various screenshots of the app above. \n \n Notable implementations include: a search feature to see various movies or tv-show; detailed view presenting score of production, description, and release data; interactive features to add to favorites, see where to watch, and add to photo gallery; a favorites page to see all your favorite movies and tv-shows; and within photo gallery you can see all the wallpapers you have saved from your favorite movies and tv-shows.",
+    images: [screen1db, screen2db, screen3db, screen4db, screen5db, screen6db, screen7db, screen8db, screen9db]
+  },
+  {
+    name: "Movie Database Library App",
+    description:
+      "A mobile app created through Swift and Xcode that allows users to search for Movies and TV shows and add them to their favorites. Users can see a dynamic view of their favorite movies and TV shows including descriptions, where to watch, and other notable information retried through MovieData API. Users can get wallpapers from the Movie or TV Show cover to add to them photo gallery",
+    tags: [
+      {
+        name: "Swift",
+        color: "swift-gradient",
+      },
+      {
+        name: "Xcode",
+        color: "xcode-gradient",
+      },
+      {
+        name: "IOS",
+        color: "ios-gradient",
+      },
+      {
+        name: "MovieData API",
+        color: "movie-database",
+      },
+      {
+        name: "UIKit",
+        color: "ui-component-text-gradient",
+      },
+    ],
+    image: movie,
+    id: "movie",
+    title: "Movie Database Library App",
+    subtitle: "View various screenshots of the app above. \n \n Notable implementations include: a search feature to see various movies or tv-show; detailed view presenting score of production, description, and release data; interactive features to add to favorites, see where to watch, and add to photo gallery; a favorites page to see all your favorite movies and tv-shows; and within photo gallery you can see all the wallpapers you have saved from your favorite movies and tv-shows.",
+    images: [screen1db, screen2db, screen3db, screen4db, screen5db, screen6db, screen7db, screen8db, screen9db]
+  },
+  {
+    name: "Movie Database Library App",
+    description:
+      "A mobile app created through Swift and Xcode that allows users to search for Movies and TV shows and add them to their favorites. Users can see a dynamic view of their favorite movies and TV shows including descriptions, where to watch, and other notable information retried through MovieData API. Users can get wallpapers from the Movie or TV Show cover to add to them photo gallery",
+    tags: [
+      {
+        name: "Swift",
+        color: "swift-gradient",
+      },
+      {
+        name: "Xcode",
+        color: "xcode-gradient",
+      },
+      {
+        name: "IOS",
+        color: "ios-gradient",
+      },
+      {
+        name: "MovieData API",
+        color: "movie-database",
+      },
+      {
+        name: "UIKit",
+        color: "ui-component-text-gradient",
+      },
+    ],
+    image: movie,
+    id: "movie",
+    title: "Movie Database Library App",
+    subtitle: "View various screenshots of the app above. \n \n Notable implementations include: a search feature to see various movies or tv-show; detailed view presenting score of production, description, and release data; interactive features to add to favorites, see where to watch, and add to photo gallery; a favorites page to see all your favorite movies and tv-shows; and within photo gallery you can see all the wallpapers you have saved from your favorite movies and tv-shows.",
+    images: [screen1db, screen2db, screen3db, screen4db, screen5db, screen6db, screen7db, screen8db, screen9db]
   },
 ];
 

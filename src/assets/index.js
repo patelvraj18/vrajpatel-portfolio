@@ -13,6 +13,7 @@ import link from "./link.png";
 import closeX from "./closeX.png";
 import vrajcreates from "./vrajcreates.png";
 import portfolio from "./portfolio.png";
+import movie from "./movie.png";
 
 import css from "./tech/css.png";
 import figma from "./tech/figma.png";
@@ -47,6 +48,16 @@ import screen11 from "./screens/screen11.png";
 import screen12 from "./screens/screen12.png";
 import screen13 from "./screens/screen13.png";
 import screen14 from "./screens/screen14.png";
+
+import screen1db from "./screensdb/screen1.png";
+import screen2db from "./screensdb/screen2.png";
+import screen3db from "./screensdb/screen3.png";
+import screen4db from "./screensdb/screen4.png";
+import screen5db from "./screensdb/screen5.png";
+import screen6db from "./screensdb/screen6.png";
+import screen7db from "./screensdb/screen7.png";
+import screen8db from "./screensdb/screen8.png";
+import screen9db from "./screensdb/screen9.png";
 
 export {
   backend,
@@ -95,4 +106,14 @@ export {
   closeX,
   vrajcreates,
   portfolio,
+  movie,
+  screen1db,
+  screen2db,
+  screen3db,
+  screen4db,
+  screen5db,
+  screen6db,
+  screen7db,
+  screen8db,
+  screen9db,
 };

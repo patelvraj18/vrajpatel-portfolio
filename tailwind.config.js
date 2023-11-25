@@ -9,7 +9,7 @@ export const theme = {
       primary: "#040C14",
       secondary: "#A6B0C3",
       tertiary: "#141E3D",
-      quaternary: "#3F4148",
+      quaternary: "#151729",
       "black-100": "#0D1726",
       "black-200": "#090325",
       "white-100": "#f3f3f3",
