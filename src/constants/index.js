@@ -160,7 +160,7 @@ const experiences = [
     company_name: "EyeLabsAI",
     icon: eye,
     iconBg: "#1e2333",
-    date: "July 2023 - Present",
+    date: "Sept 2023 - Present",
     points: [
       "Developing on a app called EyeSpace that serves as a reference tool that assists a 3rd of ophthalmologists in the U.S. daily with 1000s of users",
       "Spearheaded the development of an innovative feature, the Sulcus Adjustment Calculator, integrating essential surgical tools into the application by using Swift and Firebase.",
