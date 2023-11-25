@@ -8,7 +8,9 @@ import close from "./close.svg";
 import menu from "./menu.svg";
 import email from "./email.png"
 import fairytale from "./fairytale.png";
+import chalk from "./chalk.png";
 import link from "./link.png";
+import closeX from "./closeX.png";
 
 import css from "./tech/css.png";
 import figma from "./tech/figma.png";
@@ -29,8 +31,24 @@ import eye from "./company/eye.png";
 import washu from "./company/washu.png";
 import techmed from "./company/techmed.png";
 
+import screen1 from "./screens/screen1.png";
+import screen2 from "./screens/screen2.png";
+import screen3 from "./screens/screen3.png";
+import screen4 from "./screens/screen4.png";
+import screen5 from "./screens/screen5.png";
+import screen6 from "./screens/screen6.png";
+import screen7 from "./screens/screen7.png";
+import screen8 from "./screens/screen8.png";
+import screen9 from "./screens/screen9.png";
+import screen10 from "./screens/screen10.png";
+import screen11 from "./screens/screen11.png";
+import screen12 from "./screens/screen12.png";
+import screen13 from "./screens/screen13.png";
+import screen14 from "./screens/screen14.png";
+
 export {
   backend,
+  chalk,
   creator,
   mobile,
   web,
@@ -58,4 +76,19 @@ export {
   email,
   fairytale,
   link,
+  screen1,
+  screen2,
+  screen3,
+  screen4,
+  screen5,
+  screen6,
+  screen7,
+  screen8,
+  screen9,
+  screen10,
+  screen11,
+  screen12,
+  screen13,
+  screen14,
+  closeX,
 };
