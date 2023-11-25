@@ -16,7 +16,7 @@ import React, { useState, useEffect, useRef } from "react";
 
 const ProjectCard = ({ id, index, name, description, tags, image, source_code_link, live_link, title, subtitle, images, cardHeight, line_break }) => {
   const githubIds = ['fairy', 'chalk', 'portfolio'];
-  const liveLinkId = ['fairy'];
+  const liveLinkId = ['fairy', 'dogs'];
   const popupIDs = ['chalk', 'movie'];
 
   const [showPopup, setShowPopup] = useState(false);

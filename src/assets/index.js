@@ -14,6 +14,7 @@ import closeX from "./closeX.png";
 import vrajcreates from "./vrajcreates.png";
 import portfolio from "./portfolio.png";
 import movie from "./movie.png";
+import dogsinnyc from "./dogsinnyc.png";
 
 import css from "./tech/css.png";
 import figma from "./tech/figma.png";
@@ -116,4 +117,5 @@ export {
   screen7db,
   screen8db,
   screen9db,
+  dogsinnyc,
 };
