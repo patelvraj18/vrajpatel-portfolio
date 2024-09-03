@@ -13,8 +13,7 @@ import { fadeIn, textVariant } from '../utils/motion';
 import PopupCarousel from './PopupCarousel';
 import React, { useState, useEffect, useRef } from "react";
 
-
-const ProjectCard = ({ id, index, name, description, tags, image, source_code_link, live_link, title, subtitle, images, cardHeight, line_break }) => {
+const ProjectCard = ({ id, index, name, description, tags, image, source_code_link, live_link, title, subtitle, images, line_break }) => {
   const githubIds = ['fairy', 'chalk', 'portfolio'];
   const liveLinkId = ['fairy', 'dogs'];
   const popupIDs = ['chalk', 'movie', 'president'];
@@ -42,35 +41,36 @@ const ProjectCard = ({ id, index, name, description, tags, image, source_code_li
     </React.Fragment>
   )) : '';
 
-
-
   return (
     <>
-      <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)} onClick={handleCardClick}>
+      <motion.div
+        initial={{ opacity: 0, y: 50 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5, delay: index * 0.1 }}
+        className="w-full sm:w-[360px]"
+      >
         <Tilt
           options={{
             max: 45,
             scale: 1,
             speed: 450,
           }}
-          className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'
+          className='bg-tertiary p-5 rounded-2xl h-full'
         >
-          <div className='relative w-full h-[230px]'>
+          <div className='relative w-full h-[230px]' onClick={handleCardClick}>
             <img
               src={image}
               alt='project_image'
               className='w-full h-full object-cover rounded-2xl cursor-pointer'
             />
             <div className="absolute top-3 right-3 flex space-x-2">
-              {/* Conditionally render live link icon */}
               {liveLinkId.includes(id) && (
-                <div onClick={() => window.open(live_link, "_blank")} className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer">
+                <div onClick={(e) => { e.stopPropagation(); window.open(live_link, "_blank"); }} className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer">
                   <img src={link} alt="live_link" className="w-1/2 h-1/2 object-contain" />
                 </div>
               )}
-              {/* Conditionally render GitHub icon */}
               {githubIds.includes(id) && (
-                <div onClick={() => window.open(source_code_link, "_blank")} className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer">
+                <div onClick={(e) => { e.stopPropagation(); window.open(source_code_link, "_blank"); }} className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer">
                   <img src={github} alt="github" className="w-1/2 h-1/2 object-contain" />
                 </div>
               )}
@@ -110,8 +110,9 @@ const ProjectCard = ({ id, index, name, description, tags, image, source_code_li
         )}
       </AnimatePresence>
     </>
-  )
-}
+  );
+};
+
 
 
 const Works = () => {
@@ -119,20 +120,32 @@ const Works = () => {
   const cardRefs = useRef([]);
 
   useEffect(() => {
-    const maxCardHeight = cardRefs.current.reduce((max, card) => Math.max(card.offsetHeight, max), 0);
-    setMaxHeight(maxCardHeight);
+    const handleResize = () => {
+      const maxCardHeight = cardRefs.current.reduce((max, card) => Math.max(card?.offsetHeight || 0, max), 0);
+      setMaxHeight(maxCardHeight);
+    };
+
+    handleResize();
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
   }, []);
 
   return (
     <>
-      <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText} `}>what i have built so far</p>
+      <motion.div
+        variants={textVariant()}
+        initial="hidden"
+        animate="show"
+      >
+        <p className={`${styles.sectionSubText}`}>what i have built so far</p>
         <h2 className={`${styles.sectionHeadText}`}>projects.</h2>
       </motion.div>
 
       <div className='w-full flex'>
         <motion.p
-          variants={fadeIn("", "", 0.1, 1)}
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5, delay: 0.2 }}
           className='mt-4 text-secondary text-[17px] leading-[30px] w-full'
         >
           the following projects showcase my technical skills through projects that I have built and worked on. You can see each project's description with live demos and GitHub links where applicable. If a project does not have a live link, click on the card to see additional images of the work I did. I hope to create projects that not only improve my skills with languages, frameworks, and technologies but also benefit others and the community to solve problems.
@@ -141,12 +154,20 @@ const Works = () => {
 
       <div className='mt-20 flex flex-wrap gap-7'>
         {projects.map((project, index) => (
-          <div ref={(el) => (cardRefs.current[index] = el)} key={`project-${index}`}>
-            <ProjectCard key={`project-${index}`} index={index} id={project.id} {...project} cardHeight={maxHeight + 'px'} />
+          <div
+            key={`project-${index}`}
+            ref={(el) => (cardRefs.current[index] = el)}
+          >
+            <ProjectCard
+              index={index}
+              {...project}
+              cardHeight={maxHeight + 'px'}
+            />
           </div>
         ))}
       </div>
     </>
-  )
-}
+  );
+};
+
 export default SectionWrapper(Works, "projects");

@@ -11,10 +11,10 @@ import { fadeIn, textVariant } from '../utils/motion';
 const Tech = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
+      <div>
         <p className={`${styles.sectionSubText} `}>what i know the best</p>
         <h2 className={`${styles.sectionHeadText} mb-10`}>Technical Skills.</h2>
-      </motion.div>
+      </div>
       <div className="flex flex-row flex-wrap justify-center gap-10">
         {technologies.map((technology) => (
           <div className="w-28 h-28" key={technology.name}>

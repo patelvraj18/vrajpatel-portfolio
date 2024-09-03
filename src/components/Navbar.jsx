@@ -61,28 +61,28 @@ const Navbar = () => {
         </div>
 
         {/* Mobile Menu */}
-        <div className={`${toggle ? 'flex' : 'hidden'} p-6 bg-black bg-opacity-70 absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl z-50 mdv2:hidden`}>
-          <ul className="list-none flex flex-col gap-4 items-start">
-            {/* Render text links and icons for mobile */}
+        <div className={`${toggle ? 'flex' : 'hidden'} p-6 bg-black bg-opacity-90 absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl z-50 mdv2:hidden`}>
+          <ul className="list-none flex flex-col gap-4 items-center w-full">
             {navLinks.map((item) => (
-              <li key={item.id} className={`${active === item.id ? 'text-white' : 'text-secondary'} font-medium cursor-pointer text-[16px]`}>
+              <li key={item.id} className={`${active === item.id ? 'text-white' : 'text-secondary'} font-medium cursor-pointer text-[16px] w-full text-center`}>
                 {item.title ? (
                   <a href={`#${item.id}`} onClick={() => handleLinkClick(item.id)}>{item.title}</a>
                 ) : (
-                  <a
-                    href={
-                      item.id === 'github' ? 'https://github.com/patelvraj18' :
-                        item.id === 'linkedin' ? 'https://linkedin.com/in/vraj-patel01' :
-                          item.id === 'email' ? 'mailto:vrajpatel6147@gmail.com' : '#'
-                    }
-                    target={item.id === 'email' ? '_self' : '_blank'}
-                    rel={item.id === 'email' ? '' : 'noopener noreferrer'}
-                    onClick={() => handleLinkClick(item.id)}
-                    className="flex items-center justify-center w-8 h-8 rounded-full cursor-pointer ml-7"
-                  >
-                    <img src={item.icon} alt={`${item.id} icon`} className="w-1/2 h-1/2 object-contain" />
-                  </a>
-
+                  <div className="flex justify-center">
+                    <a
+                      href={
+                        item.id === 'github' ? 'https://github.com/patelvraj18' :
+                          item.id === 'linkedin' ? 'https://linkedin.com/in/vraj-patel01' :
+                            item.id === 'email' ? 'mailto:vrajpatel6147@gmail.com' : '#'
+                      }
+                      target={item.id === 'email' ? '_self' : '_blank'}
+                      rel={item.id === 'email' ? '' : 'noopener noreferrer'}
+                      onClick={() => handleLinkClick(item.id)}
+                      className="flex items-center justify-center w-8 h-8 rounded-full cursor-pointer"
+                    >
+                      <img src={item.icon} alt={`${item.id} icon`} className="w-1/2 h-1/2 object-contain" />
+                    </a>
+                  </div>
                 )}
               </li>
             ))}
