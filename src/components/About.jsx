@@ -37,17 +37,30 @@ const About = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>
-          Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
+          who is vraj?</p>
+        <h2 className={styles.sectionHeadText}>overview.</h2>
       </motion.div>
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w 3x1 leading-[30px] ">
-        Hello! My name is Vraj Patel - a skilled software engineer with experience in front-end and back-end languages and technologies. I am a current undergraduate student at Washington University in St. Louis majoring in Computer Science with a minor in Bioinfomatics. I am currently looking for Summer 2024 internships.
+        yo! my name is vraj - a skilled software engineer with experience in front-end and back-end languages and technologies. i am a current undergraduate student at washington university in st. louis majoring in computer science with a minor in bioinfomatics. i am currently looking for new grad roles after graduation this upcoming may of 2025.
         <br></br>
         <br></br>
-        I am passionate about building software that solves real world problems. The software that I am working on right now aims to connect college students to resources like office hours to get help in their classes. In my free time, I am super passionate to do creative photography and videography work. I also love to play tennis and basketball when I get the chance.
+        i am passionate about building software that solves real world problems. i am building out <a
+          href="https://flashcardify.ai"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-400 hover:underline"
+        >flashcardify.ai</a> – an ai active learning based study tool that helps learners, learn more effectively. scroll down to see some other projects i have worked on.
+        <br></br>
+        <br></br>
+        coding and building is one-half of who i am. the other half is my creative side where i love to do photography and videography work. check me at <a
+          href="https://vrajcreates.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-400 hover:underline"
+        >vrajcreates</a> to see some of my work!! i also love traveling, playing tennis and basketball, and want to learn how to surf one day! :)
       </motion.p>
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (

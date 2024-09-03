@@ -24,6 +24,9 @@ export const theme = {
     backgroundImage: {
       "hero-pattern": "url('/src/assets/herobg.png')",
     },
+    fontFamily: {
+      sans: ['Neue Montreal', 'sans-serif'],
+    },
   },
 };
 export const plugins = [];

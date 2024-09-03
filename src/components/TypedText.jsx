@@ -11,7 +11,7 @@ const TypedText = () => {
       strings: [
         "develop web and mobile applications",
         "am a problem solver",
-        "develop tools using AI and ML",
+        "develop tools using ai and ml",
         "push my creative bounds",
         "am a filmmaker",
         "develop full-stack software",

@@ -16,6 +16,7 @@ import portfolio from "./portfolio.png";
 import movie from "./movie.png";
 import dogsinnyc from "./dogsinnyc.png";
 import president from "./president.png";
+import entrepreneurship from "./entrepreneurship.png"
 
 import css from "./tech/css.png";
 import figma from "./tech/figma.png";
@@ -127,4 +128,5 @@ export {
   screenpres1,
   screenpres2,
   screenpres3,
+  entrepreneurship
 };

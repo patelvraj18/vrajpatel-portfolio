@@ -57,28 +57,21 @@ import {
   screenpres1,
   screenpres2,
   screenpres3,
+  entrepreneurship,
 } from "../assets";
 
 export const navLinks = [
   {
     id: "about",
-    title: "About",
-  },
-  {
-    id: "experience",
-    title: "Experience",
-  },
-  {
-    id: "skills",
-    title: "Skills",
+    title: "welcome to my page",
   },
   {
     id: "projects",
-    title: "Projects",
+    title: "projects",
   },
   {
     id: "contact",
-    title: "Contact",
+    title: "hit me up!",
   },
   {
     id: "linkedin",
@@ -100,15 +93,15 @@ const services = [
     icon: backend,
   },
   {
-    title: "Mobile Application Developer",
-    icon: mobile,
-  },
-  {
     title: "Web Application Developer",
     icon: web,
   },
   {
-    title: "Photographer Videographer",
+    title: "Entrepreneurial Minded",
+    icon: entrepreneurship,
+  },
+  {
+    title: "Photographer & Videographer",
     icon: creator,
   },
 ];

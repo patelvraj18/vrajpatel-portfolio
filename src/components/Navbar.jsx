@@ -24,8 +24,8 @@ const Navbar = () => {
         <Link to="/" className="flex items-center gap-2"
           onClick={() => { setActive(""); window.scrollTo(0, 0) }}>
           <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
-          <p className="text-white text-[18px] font-bold cursor-pointer flex">
-            Vraj&nbsp;<span className="sm:block hidden"> Patel</span></p>
+          <p className="text-white text-[18px] font-normal cursor-pointer flex">
+            VRAJ&nbsp;<span className="sm:block hidden"> PATEL</span></p>
         </Link>
         {/* Desktop Menu */}
         <ul className="list-none hidden mdv2:flex flex-row gap-7 items-center">

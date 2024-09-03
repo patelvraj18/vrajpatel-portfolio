@@ -127,15 +127,15 @@ const Works = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={`${styles.sectionSubText} `}>what i have built so far</p>
-        <h2 className={`${styles.sectionHeadText}`}>Projects.</h2>
+        <h2 className={`${styles.sectionHeadText}`}>projects.</h2>
       </motion.div>
 
       <div className='w-full flex'>
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
-          className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
+          className='mt-4 text-secondary text-[17px] leading-[30px] w-full'
         >
-          The following projects showcases my technical skills through projects that I have built and worked on. You can see each project's description with live demos and github links where applicable. If a project does not a live link, click on the card to see additional images of the work I did. I hope to create projects that not only improve my skills with languages, frameworks, and technologies but also benefit others and the community to solve problems.
+          the following projects showcase my technical skills through projects that I have built and worked on. You can see each project's description with live demos and GitHub links where applicable. If a project does not have a live link, click on the card to see additional images of the work I did. I hope to create projects that not only improve my skills with languages, frameworks, and technologies but also benefit others and the community to solve problems.
         </motion.p>
       </div>
 
