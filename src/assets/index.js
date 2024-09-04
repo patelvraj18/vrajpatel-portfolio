@@ -17,6 +17,8 @@ import movie from "./movie.png";
 import dogsinnyc from "./dogsinnyc.png";
 import president from "./president.png";
 import entrepreneurship from "./entrepreneurship.png"
+import flashcardify from "./flashcardify.png";
+import vrajcreateshome from "./vrajcreateshome.png";
 
 import css from "./tech/css.png";
 import figma from "./tech/figma.png";
@@ -32,6 +34,14 @@ import swift from "./tech/swift.png"
 import cplusplus from "./tech/c++.png"
 import python from "./tech/python.png"
 import firebase from "./tech/firebase.png";
+import supabase from "./tech/supabase.png";
+import next_js from "./tech/next-js.svg";
+import typescript from "./tech/typescript.png";
+import csharp from "./tech/csharp.png";
+import mongodb from "./tech/mongodb.png";
+import nodejs from "./tech/nodejs.png";
+import postgresql from "./tech/postgresql.png";
+import unity from "./tech/unity.png";
 
 import eye from "./company/eye.png";
 import washu from "./company/washu.png";
@@ -128,5 +138,15 @@ export {
   screenpres1,
   screenpres2,
   screenpres3,
-  entrepreneurship
+  entrepreneurship,
+  flashcardify,
+  vrajcreateshome,
+  supabase,
+  next_js,
+  typescript,
+  csharp,
+  mongodb,
+  nodejs,
+  postgresql,
+  unity,
 };

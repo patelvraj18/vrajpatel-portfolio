@@ -13,7 +13,7 @@ const Tech = () => {
     <>
       <div>
         <p className={`${styles.sectionSubText} `}>what i know the best</p>
-        <h2 className={`${styles.sectionHeadText} mb-10`}>Technical Skills.</h2>
+        <h2 className={`${styles.sectionHeadText} mb-10`}>technical skills.</h2>
       </div>
       <div className="flex flex-row flex-wrap justify-center gap-10">
         {technologies.map((technology) => (

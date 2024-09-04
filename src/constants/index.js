@@ -58,6 +58,17 @@ import {
   screenpres2,
   screenpres3,
   entrepreneurship,
+  flashcardify,
+  vrajcreateshome,
+  typescript,
+  supabase,
+  next_js,
+  csharp,
+  tailwind,
+  mongodb,
+  nodejs,
+  postgresql,
+  unity,
 } from "../assets";
 
 export const navLinks = [
@@ -108,58 +119,57 @@ const services = [
 
 const technologies = [
   {
-    name: "HTML",
-    icon: html,
-  },
-  {
-    name: "CSS",
-    icon: css,
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
-  },
-  {
-    name: "React",
-    icon: reactjs,
-  },
-  {
-    name: "Three.js",
-    icon: threejs,
-  },
-  {
-    name: "D3.js",
-    icon: d3,
-  },
-  {
-    name: "Firebase",
-    icon: firebase,
-  },
-  {
-    name: "Java",
+    name: "java",
     icon: java,
   },
   {
-    name: "C++",
+    name: "c++",
     icon: cplusplus,
   },
   {
-    name: "Python",
+    name: "python",
     icon: python,
   },
   {
-    name: "Swift",
+    name: "javascript",
+    icon: javascript,
+  },
+  {
+    name: "typescript",
+    icon: typescript,
+  },
+  {
+    name: "next.js",
+    icon: next_js,
+  },
+  {
+    name: "node.js",
+    icon: nodejs,
+  },
+  {
+    name: "react.js",
+    icon: reactjs,
+  },
+  {
+    name: "postgresql",
+    icon: postgresql,
+  },
+  {
+    name: "supabase",
+    icon: supabase,
+  },
+  {
+    name: "mongodb",
+    icon: mongodb,
+  },
+  {
+    name: "unity",
+    icon: unity,
+  },
+  {
+    name: "swift",
     icon: swift,
   },
-  {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "Figma",
-    icon: figma,
-  },
-
 ];
 
 const experiences = [
@@ -220,40 +230,124 @@ const experiences = [
 
 const projects = [
   {
-    name: "Chalk ~ Daily Prompts for College Students",
+    name: "flashcardify",
     description:
-      "A mobile app developed using React Native with JS, Expo, Node.js, and Firebase tailored to college students features random, anonymous engaging daily prompts that goes off at random time during the day. Users respond to a question that is tailored to them and their overall location. Users can also see a feed of their friend network and be able to interact with likes and comments in a thread like fashion. ",
+      "an ai study tool that uses active learning strategies to help students learn more effectively. \n \n this app includes everything from science backed ways of studying including spaced repetition and practice questions all the way to a version of the feynman technique where you explain a concept in simpler words. \n \n it also includes ai features where you can make flashcards in sub 10 seconds, 24/7 personalized tutor, and gives you smart recommendations to take a break or further concepts to explore while studying as well. check it out! :)",
     tags: [
       {
-        name: "React Native",
-        color: "react-native-gradient",
+        name: "next.js",
+        color: "next-gradient",
       },
       {
-        name: "JavaScript",
-        color: "yellow-darker-yellow-text-gradient",
+        name: "typescript",
+        color: "blue-darker-text-gradient",
       },
       {
-        name: "Firebase",
-        color: "orange-darker-text-firebase-gradient",
+        name: "tailwind css",
+        color: "tailwind-css-gradient",
       },
       {
-        name: "Expo",
-        color: "expo-gradient",
+        name: "supabase",
+        color: "green-roberta-gradient",
       },
       {
-        name: "Node.js",
-        color: "green-nodejs-gradient",
+        name: "clerk",
+        color: "red-different-text-gradient",
       },
       {
-        name: "Native UI Components",
-        color: "ui-component-text-gradient",
-      },
-      {
-        name: "IOS",
+        name: "posthog",
         color: "ios-gradient",
       },
       {
-        name: "Git",
+        name: "stripe",
+        color: "threejs-gradient",
+      },
+      {
+        name: "openai",
+        color: "orange-darker-text-firebase-gradient",
+      },
+      {
+        name: "vercel",
+        color: "expo-gradient",
+      },
+      {
+        name: "git",
+        color: "git-gradient",
+      },
+    ],
+    image: flashcardify,
+    live_link: "https://www.flashcardify.ai/",
+    id: "flashcardify",
+  },
+  {
+    name: "vrajcreates",
+    description:
+      "a personal portfolio dedicated to my multi-media business of photography and videography. \n \n this website not only serves as use case for clients to see my previous work and what services i offer, but it is also a testament to my creativity, stellar web design skills, and programming abilities to make this 100% from scratch.   \n \n it includes a home page, about me page, services page, portfolio page, and a contact page. i am able to showcase that i offer services in weddings, real estate, and personal portraits as well! click the link to see more! \n",
+    tags: [
+      {
+        name: "react.js",
+        color: "react-native-gradient",
+      },
+      {
+        name: "javascript",
+        color: "yellow-darker-yellow-text-gradient",
+      },
+      {
+        name: "email.js",
+        color: "red-different-text-gradient",
+      },
+      {
+        name: "tailwind css",
+        color: "tailwind-css-gradient",
+      },
+      {
+        name: "vercel",
+        color: "expo-gradient",
+      },
+      {
+        name: "git",
+        color: "git-gradient",
+      }
+    ],
+    image: vrajcreateshome,
+    live_link: "https://vrajcreates.com/",
+    id: "vrajcreates",
+  },
+  {
+    name: "chalk",
+    description:
+      "every 24 hours, at a random time of day, college students will anonymously engage in a daily question tailored to their location. so, basically think if bereal and yikyak had a baby. \n \n this was a mobile app developed alongside three others in a group project where i was able to work in a larger code base with a whole team. another notable feature is that users can also see a feed of their friend network and be able to interact with likes and comments like a social media app. ",
+    tags: [
+      {
+        name: "react native",
+        color: "react-native-gradient",
+      },
+      {
+        name: "javascript",
+        color: "yellow-darker-yellow-text-gradient",
+      },
+      {
+        name: "firebase",
+        color: "orange-darker-text-firebase-gradient",
+      },
+      {
+        name: "node.js",
+        color: "green-nodejs-gradient",
+      },
+      {
+        name: "native ui components",
+        color: "ui-component-text-gradient",
+      },
+      {
+        name: "ios",
+        color: "ios-gradient",
+      },
+      {
+        name: "expo",
+        color: "expo-gradient",
+      },
+      {
+        name: "git",
         color: "git-gradient",
       }
 
@@ -261,49 +355,49 @@ const projects = [
     image: chalk,
     source_code_link: "https://github.com/patelvraj18/chalk---social-media-app",
     id: "chalk",
-    title: "Chalk ~ Daily Prompts for College Students",
-    subtitle: "View various screenshots of the app above. \n \n Notable implementations include: a launch page, signup/login pages with authentication of college email, scrollable feed page, a profile page with a detailed functional setting page, a comment page within a particular post, a discover feature to see local to your area, search by username feature, ability to see other people's profile and develop friends in a network, chat with friends feature, internal clock system with a ability to post every 24 hours at a random time, and lastly public/private friend network ability.",
+    title: "chalk",
+    subtitle: "view various screenshots of the app above. \n \n notable features include: a landing page, signup/login pages with authentication of college email, scrollable feed page, a profile page with a detailed functional setting page, a comment page within a particular post, a discover feature to see local to your area, search by username feature, ability to see other people's profile and develop friends in a network, chat with friends feature, internal clock system with a ability to post every 24 hours at a random time, and lastly public/private friend network ability.",
     images: [screen1, screen2, screen3, screen4, screen5, screen6, screen7, screen8, screen9, screen10, screen11, screen12, screen13, screen14],
   },
   {
-    name: "Fairytale Sentiment Analysis",
+    name: "ml fairytale sentiment analysis",
     description:
-      "\n Natural Language Processing (NLP) project that analyzes the sentiment - either positive, neutral, or negative emotions - of various fairytales to make visualization by using D3.js and use machine learning models as well (RoBERTa). Reveals important data about how it impacts children's perceptions through various graphs \n",
+      "ever wondered what overall tone the most famous fairytales were written in? well, i was curious, so i explored this question! \n \n this project uses natural language processing (nlp) to analyzes the sentiment - either positive, neutral, or negative emotions - of various fairytales by training machine learning models with roBERTa. \n \n i also made some visualizations by using d3.js to reveal important data about how the tone of these stories impacts children's perceptions through various graphs.",
     tags: [
       {
-        name: "HTML",
+        name: "html",
         color: "red-darker-red-text-gradient",
       },
       {
-        name: "CSS",
+        name: "css",
         color: "blue-darker-text-gradient",
       },
       {
-        name: "JavaScript",
+        name: "javascript",
         color: "yellow-darker-yellow-text-gradient",
       },
       {
-        name: "D3.js",
+        name: "d3.js",
         color: "orange-darker-text-gradient",
       },
       {
-        name: "Python",
+        name: "python",
         color: "blue-yellow-text-gradient",
       },
       {
-        name: "NLP",
+        name: "nlp",
         color: "blue-different-text-gradient",
       },
       {
-        name: "PyTorch",
+        name: "pytorch",
         color: "red-different-text-gradient",
       },
       {
-        name: "RoBERTa",
+        name: "roBERTa",
         color: "green-roberta-gradient",
       },
       {
-        name: "Git",
+        name: "git",
         color: "git-gradient",
       }
     ],
@@ -313,131 +407,8 @@ const projects = [
     live_link: "https://fairytales-analysis.vercel.app/",
     id: "fairy",
   },
-  {
-    name: "Vraj Patel's Portfolio Website",
-    description:
-      "My personal 3D Interactive Portfolio showcases my professional work through a responsive 3D space using 3d models and careful consideration of front-end design. It features interactive animations and dynamic content, offering a unique exploration of my skills and projects. Designed with modern web development practices, the portfolio presents each element as an engaging window, ensuring accessibility and a captivating user experience on any device.",
-    tags: [
-      {
-        name: "HTML",
-        color: "red-darker-red-text-gradient",
-      },
-      {
-        name: "CSS",
-        color: "blue-darker-text-gradient",
-      },
-      {
-        name: "JavaScript",
-        color: "yellow-darker-yellow-text-gradient",
-      },
-      {
-        name: "React.js",
-        color: "react-native-gradient",
-      },
-      {
-        name: "Three.js",
-        color: "threejs-gradient",
-      },
-      {
-        name: "Tailwind CSS",
-        color: "tailwind-css-gradient",
-      },
-      {
-        name: "Git",
-        color: "git-gradient",
-      }
-    ],
-    image: portfolio,
-    source_code_link: "https://github.com/patelvraj18/vrajpatel-portfolio",
-    id: "portfolio",
-  },
-  {
-    name: "Movie Database Library App",
-    description:
-      "A mobile app created through Swift and Xcode that allows users to search for Movies and TV shows and add them to their favorites. Users can see a dynamic view of their favorite movies and TV shows including descriptions, where to watch, and other notable information retried through MovieData API. Users can get wallpapers from the Movie or TV Show cover to add to them photo gallery",
-    tags: [
-      {
-        name: "Swift",
-        color: "swift-gradient",
-      },
-      {
-        name: "Xcode",
-        color: "xcode-gradient",
-      },
-      {
-        name: "IOS",
-        color: "ios-gradient",
-      },
-      {
-        name: "MovieData API",
-        color: "movie-database",
-      },
-      {
-        name: "UIKit",
-        color: "ui-component-text-gradient",
-      },
-    ],
-    image: movie,
-    id: "movie",
-    title: "Movie Database Library App",
-    subtitle: "View various screenshots of the app above. \n \n Notable implementations include: a search feature to see various movies or tv-show; detailed view presenting score of production, description, and release data; interactive features to add to favorites, see where to watch, and add to photo gallery; a favorites page to see all your favorite movies and tv-shows; and within photo gallery you can see all the wallpapers you have saved from your favorite movies and tv-shows.",
-    images: [screen1db, screen2db, screen3db, screen4db, screen5db, screen6db, screen7db, screen8db, screen9db]
-  },
-  {
-    name: "Dogs in NYC",
-    description:
-      "\n A interactive article that uses D3.js to visualize interesting statistics about dogs in NYC by borough. It shows the number of dogs by breed using a bubble chart complete with tooltips. The article also shows the age distribution of dogs by borough in a histogram and the most popular dog names by borough in a name chart. An  in-depth analysis of the data is also provided. \n \n",
-    tags: [
-      {
-        name: "HTML",
-        color: "red-darker-red-text-gradient",
-      },
-      {
-        name: "CSS",
-        color: "blue-darker-text-gradient",
-      },
-      {
-        name: "JavaScript",
-        color: "yellow-darker-yellow-text-gradient",
-      },
-      {
-        name: "D3.js",
-        color: "orange-darker-text-gradient",
-      },
-    ],
-    image: dogsinnyc,
-    live_link: "https://dogsinnyc.vercel.app/",
-    id: "dogs",
-    line_break: "\n",
-  },
-  {
-    name: "US Presidential Elections From 1940 to 2020 ",
-    description:
-      "This interactive website complete with a timeline and a map of the United State shows the results of the US Presidential Elections from 1940 to 2020. It uses D3.js to visualize the results of the elections by state and year. The website also shows the popular vote and electoral vote for each election for all candidates in a stacked bar chart. The website shows a heated map of the results of the elections by state. \n",
-    tags: [
-      {
-        name: "HTML",
-        color: "red-darker-red-text-gradient",
-      },
-      {
-        name: "CSS",
-        color: "blue-darker-text-gradient",
-      },
-      {
-        name: "JavaScript",
-        color: "yellow-darker-yellow-text-gradient",
-      },
-      {
-        name: "D3.js",
-        color: "orange-darker-text-gradient",
-      },
-    ],
-    image: president,
-    id: "president",
-    title: "US Presidential Elections From 1940 to 2020",
-    subtitle: "View various screenshots of the app above. \n \n Notable implementations include: a timeline to see the results of the elections by year; a heat map of the United States to see the results of the elections by state by electoral vote; a stacked bar chart to see the popular vote and electoral vote for each election for all candidates; and a legend to see the color scheme of the heat map.",
-    images: [screenpres1, screenpres2, screenpres3]
-  },
+
+
 ];
 
 

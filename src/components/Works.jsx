@@ -15,7 +15,7 @@ import React, { useState, useEffect, useRef } from "react";
 
 const ProjectCard = ({ id, index, name, description, tags, image, source_code_link, live_link, title, subtitle, images, line_break }) => {
   const githubIds = ['fairy', 'chalk', 'portfolio'];
-  const liveLinkId = ['fairy', 'dogs'];
+  const liveLinkId = ['fairy', 'flashcardify', 'vrajcreates'];
   const popupIDs = ['chalk', 'movie', 'president'];
 
   const [showPopup, setShowPopup] = useState(false);
@@ -89,9 +89,12 @@ const ProjectCard = ({ id, index, name, description, tags, image, source_code_li
               </p>
             ))}
           </div>
-          <div>{lineBreakAnalysis}</div>
+          {/* <div>{lineBreakAnalysis}</div> */}
           {popupIDs.includes(id) && (
-            <div className="text-center text-red-500 font-bold uppercase mt-5 mb-3 cursor-pointer underline italic">
+            <div
+              className="text-center text-red-500 font-bold uppercase mt-5 mb-3 cursor-pointer underline italic"
+              onClick={handleCardClick}  // Add this line
+            >
               Click Me For More Details
             </div>
           )}
@@ -146,7 +149,7 @@ const Works = () => {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.2 }}
-          className='mt-4 text-secondary text-[17px] leading-[30px] w-full'
+          className='mt-4 text-secondary text-[17px] leading-[30px] w-full lowercase'
         >
           the following projects showcase my technical skills through projects that I have built and worked on. You can see each project's description with live demos and GitHub links where applicable. If a project does not have a live link, click on the card to see additional images of the work I did. I hope to create projects that not only improve my skills with languages, frameworks, and technologies but also benefit others and the community to solve problems.
         </motion.p>
