@@ -69,6 +69,7 @@ import {
   nodejs,
   postgresql,
   unity,
+  nexus,
 } from "../assets";
 
 export const navLinks = [
@@ -267,6 +268,10 @@ const projects = [
         color: "orange-darker-text-firebase-gradient",
       },
       {
+        name: "ui/ux focused",
+        color: "ui-gradient",
+      },
+      {
         name: "vercel",
         color: "expo-gradient",
       },
@@ -299,6 +304,10 @@ const projects = [
       {
         name: "tailwind css",
         color: "tailwind-css-gradient",
+      },
+      {
+        name: "ui/ux focused",
+        color: "ui-gradient",
       },
       {
         name: "vercel",
@@ -339,6 +348,10 @@ const projects = [
         color: "ui-component-text-gradient",
       },
       {
+        name: "ui/ux focused",
+        color: "ui-gradient",
+      },
+      {
         name: "ios",
         color: "ios-gradient",
       },
@@ -358,6 +371,44 @@ const projects = [
     title: "chalk",
     subtitle: "view various screenshots of the app above. \n \n notable features include: a landing page, signup/login pages with authentication of college email, scrollable feed page, a profile page with a detailed functional setting page, a comment page within a particular post, a discover feature to see local to your area, search by username feature, ability to see other people's profile and develop friends in a network, chat with friends feature, internal clock system with a ability to post every 24 hours at a random time, and lastly public/private friend network ability.",
     images: [screen1, screen2, screen3, screen4, screen5, screen6, screen7, screen8, screen9, screen10, screen11, screen12, screen13, screen14],
+  },
+  {
+    name: "nexus",
+    description:
+      "an agency dedicated to providing web design, software, and marketing solutions to local businesses. \n \n from electricians to solar panel companies, we offer company redesigns and rebranding services to enhance a business's social presence and attract more clients. \n \n this agency overall focuses on tailoring our solutions to understand the audience of the business and focus on any data available to guide our choices. this was designed using figma and is fully responsive for all devices. \n",
+    tags: [
+      {
+        name: "react.js",
+        color: "react-native-gradient",
+      },
+      {
+        name: "javascript",
+        color: "yellow-darker-yellow-text-gradient",
+      },
+      {
+        name: "email.js",
+        color: "red-different-text-gradient",
+      },
+      {
+        name: "tailwind css",
+        color: "tailwind-css-gradient",
+      },
+      {
+        name: "ui/ux focused",
+        color: "ui-gradient",
+      },
+      {
+        name: "vercel",
+        color: "expo-gradient",
+      },
+      {
+        name: "git",
+        color: "git-gradient",
+      }
+    ],
+    image: nexus,
+    live_link: "https://nexusagency.me/",
+    id: "nexus",
   },
   {
     name: "ml fairytale sentiment analysis",
