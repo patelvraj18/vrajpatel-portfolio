@@ -70,6 +70,7 @@ import {
   postgresql,
   unity,
   nexus,
+  knockout,
 } from "../assets";
 
 export const navLinks = [
@@ -409,6 +410,36 @@ const projects = [
     image: nexus,
     live_link: "https://nexusagency.me/",
     id: "nexus",
+  },
+  {
+    name: "knockout",
+    description:
+      "a 2d fighting game where the last one standing wins. your goal - knock out the other opponent! \n \n play on different maps that take you to urban tokyo all the way to space alongside various characters with their unique abilities and cool animations. some of the apps even have dynamic elements that make it harder to win! \n \n  i collaborated with three other team members to develop this game, where i focused on ui/ux design, refining the game mechanics and overall experience, and ensuring the product was polished from start to finish \n",
+    tags: [
+      {
+        name: "csharp",
+        color: "ios-gradient",
+      },
+      {
+        name: "unity",
+        color: "next-gradient",
+      },
+      {
+        name: "ui/ux focused",
+        color: "ui-gradient",
+      },
+      {
+        name: "webgl",
+        color: "red-darker-red-text-gradient",
+      },
+      {
+        name: "git",
+        color: "git-gradient",
+      }
+    ],
+    image: knockout,
+    live_link: "https://zichu-pan.itch.io/knock-out",
+    id: "knockout",
   },
   {
     name: "ml fairytale sentiment analysis",

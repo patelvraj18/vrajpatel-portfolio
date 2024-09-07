@@ -20,6 +20,7 @@ import entrepreneurship from "./entrepreneurship.png"
 import flashcardify from "./flashcardify.png";
 import vrajcreateshome from "./vrajcreateshome.png";
 import nexus from "./nexus.png"
+import knockout from "./knockout.png"
 
 import css from "./tech/css.png";
 import figma from "./tech/figma.png";
@@ -151,4 +152,5 @@ export {
   postgresql,
   unity,
   nexus,
+  knockout,
 };
