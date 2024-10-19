@@ -374,6 +374,36 @@ const projects = [
     images: [screen1, screen2, screen3, screen4, screen5, screen6, screen7, screen8, screen9, screen10, screen11, screen12, screen13, screen14],
   },
   {
+    name: "knockout",
+    description:
+      "a 2d fighting game where the last one standing wins. your goal - knock out the other opponent! \n \n play on different maps that take you to urban tokyo all the way to space alongside various characters with their unique abilities and cool animations. some of the apps even have dynamic elements that make it harder to win! \n \n  i collaborated with three other team members to develop this game, where i focused on ui/ux design, refining the game mechanics and overall experience, and ensuring the product was polished from start to finish \n",
+    tags: [
+      {
+        name: "csharp",
+        color: "ios-gradient",
+      },
+      {
+        name: "unity",
+        color: "next-gradient",
+      },
+      {
+        name: "ui/ux focused",
+        color: "ui-gradient",
+      },
+      {
+        name: "webgl",
+        color: "red-darker-red-text-gradient",
+      },
+      {
+        name: "git",
+        color: "git-gradient",
+      }
+    ],
+    image: knockout,
+    live_link: "https://zichu-pan.itch.io/knock-out",
+    id: "knockout",
+  },
+  {
     name: "nexus",
     description:
       "an agency dedicated to providing web design, software, and marketing solutions to local businesses. \n \n from electricians to solar panel companies, we offer company redesigns and rebranding services to enhance a business's social presence and attract more clients. \n \n this agency overall focuses on tailoring our solutions to understand the audience of the business and focus on any data available to guide our choices. this was designed using figma and is fully responsive for all devices. \n",
@@ -410,36 +440,6 @@ const projects = [
     image: nexus,
     live_link: "https://nexusagency.me/",
     id: "nexus",
-  },
-  {
-    name: "knockout",
-    description:
-      "a 2d fighting game where the last one standing wins. your goal - knock out the other opponent! \n \n play on different maps that take you to urban tokyo all the way to space alongside various characters with their unique abilities and cool animations. some of the apps even have dynamic elements that make it harder to win! \n \n  i collaborated with three other team members to develop this game, where i focused on ui/ux design, refining the game mechanics and overall experience, and ensuring the product was polished from start to finish \n",
-    tags: [
-      {
-        name: "csharp",
-        color: "ios-gradient",
-      },
-      {
-        name: "unity",
-        color: "next-gradient",
-      },
-      {
-        name: "ui/ux focused",
-        color: "ui-gradient",
-      },
-      {
-        name: "webgl",
-        color: "red-darker-red-text-gradient",
-      },
-      {
-        name: "git",
-        color: "git-gradient",
-      }
-    ],
-    image: knockout,
-    live_link: "https://zichu-pan.itch.io/knock-out",
-    id: "knockout",
   },
   {
     name: "ml fairytale sentiment analysis",
@@ -487,6 +487,53 @@ const projects = [
     image: fairytale,
     source_code_link: "https://github.com/patelvraj18/ml-sentiment-analysis-englishfairytales",
     live_link: "https://fairytales-analysis.vercel.app/",
+    id: "fairy",
+  },
+  {
+    name: "ml fairytale sentiment analysis",
+    description:
+      "ever wondered what overall tone the most famous fairytales were written in? well, i was curious, so i explored this question! \n \n this project uses natural language processing (nlp) to analyzes the sentiment - either positive, neutral, or negative emotions - of various fairytales by training machine learning models with roBERTa. \n \n i also made some visualizations by using d3.js to reveal important data about how the tone of these stories impacts children's perceptions through various graphs.",
+    tags: [
+      {
+        name: "html",
+        color: "red-darker-red-text-gradient",
+      },
+      {
+        name: "css",
+        color: "blue-darker-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "yellow-darker-yellow-text-gradient",
+      },
+      {
+        name: "d3.js",
+        color: "orange-darker-text-gradient",
+      },
+      {
+        name: "python",
+        color: "blue-yellow-text-gradient",
+      },
+      {
+        name: "nlp",
+        color: "blue-different-text-gradient",
+      },
+      {
+        name: "pytorch",
+        color: "red-different-text-gradient",
+      },
+      {
+        name: "roBERTa",
+        color: "green-roberta-gradient",
+      },
+      {
+        name: "git",
+        color: "git-gradient",
+      }
+    ],
+    line_break: "\n",
+    image: fairytale,
+    source_code_link: "https://github.com/patelvraj18/ml-sentiment-analysis-englishfairytales",
     id: "fairy",
   },
 
