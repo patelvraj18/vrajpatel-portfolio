@@ -42,7 +42,7 @@ const About = () => {
 
       <p
         className="mt-4 text-secondary text-[17px] max-w 3x1 leading-[30px] ">
-        yo! my name is vraj - a skilled software engineer with experience in front-end and back-end languages and technologies. i am a current undergraduate student at washington university in st. louis majoring in computer science with a minor in bioinfomatics. i am currently looking for new grad roles after graduation this upcoming may of 2025.
+        yo! my name is vraj - a skilled software engineer with experience in front-end and back-end languages and technologies. i am a current undergraduate student at washington university in st. louis majoring in computer science. i am currently looking for new grad roles after graduation this upcoming december 2024. i am especially passionate about front-end development, perfecting ui/ux, and creating stunning designs that are functional.
         <br></br>
         <br></br>
         i am passionate about building software that solves real world problems. i am building out <a

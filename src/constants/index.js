@@ -489,55 +489,6 @@ const projects = [
     live_link: "https://fairytales-analysis.vercel.app/",
     id: "fairy",
   },
-  {
-    name: "ml fairytale sentiment analysis",
-    description:
-      "ever wondered what overall tone the most famous fairytales were written in? well, i was curious, so i explored this question! \n \n this project uses natural language processing (nlp) to analyzes the sentiment - either positive, neutral, or negative emotions - of various fairytales by training machine learning models with roBERTa. \n \n i also made some visualizations by using d3.js to reveal important data about how the tone of these stories impacts children's perceptions through various graphs.",
-    tags: [
-      {
-        name: "html",
-        color: "red-darker-red-text-gradient",
-      },
-      {
-        name: "css",
-        color: "blue-darker-text-gradient",
-      },
-      {
-        name: "javascript",
-        color: "yellow-darker-yellow-text-gradient",
-      },
-      {
-        name: "d3.js",
-        color: "orange-darker-text-gradient",
-      },
-      {
-        name: "python",
-        color: "blue-yellow-text-gradient",
-      },
-      {
-        name: "nlp",
-        color: "blue-different-text-gradient",
-      },
-      {
-        name: "pytorch",
-        color: "red-different-text-gradient",
-      },
-      {
-        name: "roBERTa",
-        color: "green-roberta-gradient",
-      },
-      {
-        name: "git",
-        color: "git-gradient",
-      }
-    ],
-    line_break: "\n",
-    image: fairytale,
-    source_code_link: "https://github.com/patelvraj18/ml-sentiment-analysis-englishfairytales",
-    id: "fairy",
-  },
-
-
 ];
 
 
