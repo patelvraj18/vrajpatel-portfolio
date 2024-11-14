@@ -71,6 +71,7 @@ import {
   unity,
   nexus,
   knockout,
+  bball
 } from "../assets";
 
 export const navLinks = [
@@ -324,6 +325,74 @@ const projects = [
     id: "vrajcreates",
   },
   {
+    name: "nexus",
+    description:
+      "an agency dedicated to providing web design, software, and marketing solutions to local businesses. \n \n from electricians to solar panel companies, we offer company redesigns and rebranding services to enhance a business's social presence and attract more clients. \n \n this agency overall focuses on tailoring our solutions to understand the audience of the business and focus on any data available to guide our choices. this was designed using figma and is fully responsive for all devices. \n",
+    tags: [
+      {
+        name: "react.js",
+        color: "react-native-gradient",
+      },
+      {
+        name: "javascript",
+        color: "yellow-darker-yellow-text-gradient",
+      },
+      {
+        name: "email.js",
+        color: "red-different-text-gradient",
+      },
+      {
+        name: "tailwind css",
+        color: "tailwind-css-gradient",
+      },
+      {
+        name: "ui/ux focused",
+        color: "ui-gradient",
+      },
+      {
+        name: "vercel",
+        color: "expo-gradient",
+      },
+      {
+        name: "git",
+        color: "git-gradient",
+      }
+    ],
+    image: nexus,
+    live_link: "https://nexusagency.me/",
+    id: "nexus",
+  },
+  {
+    name: "knockout",
+    description:
+      "a 2d fighting game where the last one standing wins. your goal - knock out the other opponent! \n \n play on different maps that take you to urban tokyo all the way to space alongside various characters with their unique abilities and cool animations. some of the apps even have dynamic elements that make it harder to win! \n \n  i collaborated with three other team members to develop this game, where i focused on ui/ux design, refining the game mechanics and overall experience, and ensuring the product was polished from start to finish \n",
+    tags: [
+      {
+        name: "csharp",
+        color: "ios-gradient",
+      },
+      {
+        name: "unity",
+        color: "next-gradient",
+      },
+      {
+        name: "ui/ux focused",
+        color: "ui-gradient",
+      },
+      {
+        name: "webgl",
+        color: "red-darker-red-text-gradient",
+      },
+      {
+        name: "git",
+        color: "git-gradient",
+      }
+    ],
+    image: knockout,
+    live_link: "https://zichu-pan.itch.io/knock-out",
+    id: "knockout",
+  },
+  {
     name: "chalk",
     description:
       "every 24 hours, at a random time of day, college students will anonymously engage in a daily question tailored to their location. so, basically think if bereal and yikyak had a baby. \n \n this was a mobile app developed alongside three others in a group project where i was able to work in a larger code base with a whole team. another notable feature is that users can also see a feed of their friend network and be able to interact with likes and comments like a social media app. ",
@@ -374,72 +443,43 @@ const projects = [
     images: [screen1, screen2, screen3, screen4, screen5, screen6, screen7, screen8, screen9, screen10, screen11, screen12, screen13, screen14],
   },
   {
-    name: "knockout",
+    name: "basketball teams comparsion visualizer",
     description:
-      "a 2d fighting game where the last one standing wins. your goal - knock out the other opponent! \n \n play on different maps that take you to urban tokyo all the way to space alongside various characters with their unique abilities and cool animations. some of the apps even have dynamic elements that make it harder to win! \n \n  i collaborated with three other team members to develop this game, where i focused on ui/ux design, refining the game mechanics and overall experience, and ensuring the product was polished from start to finish \n",
+      "have you ever been arguing with a friend about which nba team is better? well, i ran into this a lot! so, two friends and i built a data visualization project that compares the statistics of two basketball team side by side. \n \n this project uses d3.js to create either a line chart or a radar chart that compares notable statistics of two basketball teams over the seasons. the data is fed through a pipeline and processed to be visualized. this project was focused on equipping the users with various tools and information they needed. \n",
     tags: [
       {
-        name: "csharp",
-        color: "ios-gradient",
-      },
-      {
-        name: "unity",
-        color: "next-gradient",
-      },
-      {
-        name: "ui/ux focused",
-        color: "ui-gradient",
-      },
-      {
-        name: "webgl",
+        name: "html",
         color: "red-darker-red-text-gradient",
       },
       {
-        name: "git",
-        color: "git-gradient",
-      }
-    ],
-    image: knockout,
-    live_link: "https://zichu-pan.itch.io/knock-out",
-    id: "knockout",
-  },
-  {
-    name: "nexus",
-    description:
-      "an agency dedicated to providing web design, software, and marketing solutions to local businesses. \n \n from electricians to solar panel companies, we offer company redesigns and rebranding services to enhance a business's social presence and attract more clients. \n \n this agency overall focuses on tailoring our solutions to understand the audience of the business and focus on any data available to guide our choices. this was designed using figma and is fully responsive for all devices. \n",
-    tags: [
-      {
-        name: "react.js",
-        color: "react-native-gradient",
+        name: "css",
+        color: "blue-darker-text-gradient",
       },
       {
         name: "javascript",
         color: "yellow-darker-yellow-text-gradient",
       },
       {
-        name: "email.js",
-        color: "red-different-text-gradient",
+        name: "d3.js",
+        color: "orange-darker-text-gradient",
       },
       {
-        name: "tailwind css",
-        color: "tailwind-css-gradient",
+        name: "python",
+        color: "blue-yellow-text-gradient",
       },
       {
-        name: "ui/ux focused",
-        color: "ui-gradient",
-      },
-      {
-        name: "vercel",
-        color: "expo-gradient",
+        name: "data visualization",
+        color: "green-roberta-gradient",
       },
       {
         name: "git",
         color: "git-gradient",
       }
     ],
-    image: nexus,
-    live_link: "https://nexusagency.me/",
-    id: "nexus",
+    line_break: "\n",
+    image: bball,
+    live_link: "https://basketball-comparison-visualizer.vercel.app/",
+    id: "bball",
   },
   {
     name: "ml fairytale sentiment analysis",

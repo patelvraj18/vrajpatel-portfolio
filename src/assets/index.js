@@ -21,6 +21,7 @@ import flashcardify from "./flashcardify.png";
 import vrajcreateshome from "./vrajcreateshome.png";
 import nexus from "./nexus.png"
 import knockout from "./knockout.png"
+import bball from './bball.png'
 
 import css from "./tech/css.png";
 import figma from "./tech/figma.png";
@@ -153,4 +154,5 @@ export {
   unity,
   nexus,
   knockout,
+  bball
 };
