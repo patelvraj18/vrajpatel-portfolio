@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 import { styles } from '../styles';
 import { navLinks } from '../constants';
-import { menu as menuIcon, close as closeIcon } from '../assets'; // Ensure these are the correct paths
+import { menu as menuIcon, close as closeIcon } from '../assets';
 import logo from '../assets/logo.png';
 
 const Navbar = () => {
@@ -14,8 +14,15 @@ const Navbar = () => {
   const handleLinkClick = (id) => {
     setActive(id);
     if (toggle) {
-      setToggle(false); // Close the mobile menu
+      setToggle(false);
     }
+    // Scroll to the section after a small delay to ensure the DOM is ready
+    setTimeout(() => {
+      const element = document.getElementById(id);
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+      }
+    }, 100);
   };
 
   return (
@@ -29,11 +36,14 @@ const Navbar = () => {
         </Link>
         {/* Desktop Menu */}
         <ul className="list-none hidden mdv2:flex flex-row gap-7 items-center">
-          {/* Render text links and icons for desktop */}
           {navLinks.map((item) => (
             item.title ? (
-              <li key={item.id} className={`${active === item.title ? 'text-white' : 'text-secondary'} hover:text-white text-[18px] font-medium cursor-pointer`} onClick={() => setActive(item.title)}>
-                <a href={`#${item.id}`}>{item.title}</a>
+              <li
+                key={item.id}
+                className={`${active === item.title ? 'text-white' : 'text-secondary'} hover:text-white text-[18px] font-medium cursor-pointer`}
+                onClick={() => handleLinkClick(item.id)}
+              >
+                <span>{item.title}</span>
               </li>
             ) : (
               <li key={item.id} className="hover:text-white text-secondary text-[18px] font-medium cursor-pointer">
@@ -49,7 +59,6 @@ const Navbar = () => {
                 >
                   <img src={item.icon} alt={`${item.id} icon`} className="w-1/2 h-1/2 object-contain" />
                 </a>
-
               </li>
             )
           ))}
@@ -66,7 +75,7 @@ const Navbar = () => {
             {navLinks.map((item) => (
               <li key={item.id} className={`${active === item.id ? 'text-white' : 'text-secondary'} font-medium cursor-pointer text-[16px] w-full text-center`}>
                 {item.title ? (
-                  <a href={`#${item.id}`} onClick={() => handleLinkClick(item.id)}>{item.title}</a>
+                  <span onClick={() => handleLinkClick(item.id)}>{item.title}</span>
                 ) : (
                   <div className="flex justify-center">
                     <a
