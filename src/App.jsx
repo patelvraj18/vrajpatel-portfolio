@@ -1,5 +1,5 @@
 /* eslint-disable no-unused-vars */
-import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
+import { HashRouter, Routes, Route, Navigate } from "react-router-dom";
 import { About, Contact, Experience, Hero, Navbar, Tech, Works, StarsCanvas } from "./components";
 import NotFound from "./components/NotFound";
 
@@ -22,7 +22,7 @@ const App = () => {
   );
 
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div className="relative z-0 bg-primary">
         <Routes>
           <Route path="/" element={<MainContent />} />
@@ -31,7 +31,7 @@ const App = () => {
           <Route path="*" element={<Navigate to="/404" replace />} />
         </Routes>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 };
 
