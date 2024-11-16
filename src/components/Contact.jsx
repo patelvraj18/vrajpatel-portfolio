@@ -36,7 +36,7 @@ const Contact = () => {
     e.preventDefault();
 
     if (!isFormValid()) {
-      alert("Please fill out all fields correctly.");
+      alert("please fill out all fields correctly!");
       return;
     }
     setLoading(true);
@@ -60,7 +60,7 @@ const Contact = () => {
       }, (error) => {
         console.log(error);
         setLoading(false);
-        alert('Oops! Something went wrong. Please try again.')
+        alert('oops - smth went wrong! try again or email me :)')
       });
   }
 

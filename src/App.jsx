@@ -1,7 +1,21 @@
 /* eslint-disable no-unused-vars */
-import { HashRouter, Routes, Route, Navigate } from "react-router-dom";
+import { HashRouter, Routes, Route, Navigate, useLocation } from "react-router-dom";
 import { About, Contact, Experience, Hero, Navbar, Tech, Works, StarsCanvas } from "./components";
 import NotFound from "./components/NotFound";
+import { useEffect } from "react";
+
+// Add this component to handle the redirect
+const RedirectToHash = () => {
+  const location = useLocation();
+
+  useEffect(() => {
+    if (location.pathname === '/' && !window.location.hash) {
+      window.location.replace('/#/');
+    }
+  }, [location]);
+
+  return null;
+};
 
 const App = () => {
   const MainContent = () => (
@@ -23,12 +37,12 @@ const App = () => {
 
   return (
     <HashRouter>
+      <RedirectToHash />
       <div className="relative z-0 bg-primary">
         <Routes>
           <Route path="/" element={<MainContent />} />
-          <Route path="/404" element={<NotFound />} />
-          {/* Redirect all unknown paths to 404 page */}
-          <Route path="*" element={<Navigate to="/404" replace />} />
+          <Route path="404" element={<NotFound />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </div>
     </HashRouter>
