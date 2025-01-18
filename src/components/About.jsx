@@ -46,11 +46,11 @@ const About = () => {
         <br></br>
         <br></br>
         i am passionate about building software that solves real world problems. i am building out <a
-          href="https://flashcardify.ai"
+          href="https://skylearn.app"
           target="_blank"
           rel="noopener noreferrer"
           className="text-blue-400 hover:underline"
-        >flashcardify.ai</a> – an ai active learning based study tool that helps learners, learn more effectively. scroll down to see some other projects i have worked on.
+        >skylearn</a> – an ai active learning based study tool that helps learners, learn more effectively. scroll down to see some other projects i have worked on.
         <br></br>
         <br></br>
         coding and building is one-half of who i am. the other half is my creative side where i love to do photography and videography work. check me at <a

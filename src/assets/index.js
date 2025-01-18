@@ -17,7 +17,7 @@ import movie from "./movie.png";
 import dogsinnyc from "./dogsinnyc.png";
 import president from "./president.png";
 import entrepreneurship from "./entrepreneurship.png"
-import flashcardify from "./flashcardify.png";
+import skylearn from "./skylearn.png";
 import vrajcreateshome from "./vrajcreateshome.png";
 import nexus from "./nexus.png"
 import knockout from "./knockout.png"
@@ -142,7 +142,7 @@ export {
   screenpres2,
   screenpres3,
   entrepreneurship,
-  flashcardify,
+  skylearn,
   vrajcreateshome,
   supabase,
   next_js,

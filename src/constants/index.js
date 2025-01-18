@@ -58,7 +58,7 @@ import {
   screenpres2,
   screenpres3,
   entrepreneurship,
-  flashcardify,
+  skylearn,
   vrajcreateshome,
   typescript,
   supabase,
@@ -233,7 +233,7 @@ const experiences = [
 
 const projects = [
   {
-    name: "flashcardify",
+    name: "skylearn",
     description:
       "an ai study tool that uses active learning strategies to help students learn more effectively. \n \n this app includes everything from science backed ways of studying including spaced repetition and practice questions all the way to a version of the feynman technique where you explain a concept in simpler words. \n \n it also includes ai features where you can make flashcards in sub 10 seconds, 24/7 personalized tutor, and gives you smart recommendations to take a break or further concepts to explore while studying as well. check it out! :)",
     tags: [
@@ -282,9 +282,9 @@ const projects = [
         color: "git-gradient",
       },
     ],
-    image: flashcardify,
-    live_link: "https://www.flashcardify.ai/",
-    id: "flashcardify",
+    image: skylearn,
+    live_link: "https://www.skylearn.app/",
+    id: "skylearn",
   },
   {
     name: "vrajcreates",
