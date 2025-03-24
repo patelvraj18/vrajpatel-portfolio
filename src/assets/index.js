@@ -21,6 +21,7 @@ import skylearn from "./skylearn.png";
 import vrajcreateshome from "./vrajcreateshome.png";
 import nexus from "./nexus.png"
 import knockout from "./knockout.png"
+import rotten from "./rotten.png"
 import bball from './bball.png'
 
 import css from "./tech/css.png";
@@ -154,5 +155,6 @@ export {
   unity,
   nexus,
   knockout,
+  rotten,
   bball
 };

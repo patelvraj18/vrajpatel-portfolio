@@ -71,6 +71,7 @@ import {
   unity,
   nexus,
   knockout,
+  rotten,
   bball
 } from "../assets";
 
@@ -480,6 +481,36 @@ const projects = [
     image: bball,
     live_link: "https://basketball-comparison-visualizer.vercel.app/",
     id: "bball",
+  },
+  {
+    name: "rotten raid",
+    description:
+      "a 3d tower defense game where you fight off waves of enemies—but with a twist. it's rotten food vs. kitchen appliances! \n \n battle against hordes of spoiled food using a mix of guns, turrets, and toasters, with each round increasing in difficulty. unlike traditional tower defense games, this one puts you in the action, letting you fight alongside your defenses in an immersive first-person perspective. \n \n i collaborated with three other team members to develop this game, where i focused on ui/ux design, designing interactive and strategically challenging maps, and ensuring the product was polished from start to finish. ",
+    tags: [
+      {
+        name: "csharp",
+        color: "ios-gradient",
+      },
+      {
+        name: "unity",
+        color: "next-gradient",
+      },
+      {
+        name: "ui/ux focused",
+        color: "ui-gradient",
+      },
+      {
+        name: "webgl",
+        color: "red-darker-red-text-gradient",
+      },
+      {
+        name: "git",
+        color: "git-gradient",
+      }
+    ],
+    image: rotten,
+    live_link: "https://kelsenma.itch.io/rotten-raid",
+    id: "rotten",
   },
   {
     name: "ml fairytale sentiment analysis",
