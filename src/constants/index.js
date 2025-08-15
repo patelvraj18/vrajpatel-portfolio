@@ -325,44 +325,44 @@ const projects = [
     live_link: "https://vrajcreates.com/",
     id: "vrajcreates",
   },
-  {
-    name: "nexus",
-    description:
-      "an agency dedicated to providing web design, software, and marketing solutions to local businesses. \n \n from electricians to solar panel companies, we offer company redesigns and rebranding services to enhance a business's social presence and attract more clients. \n \n this agency overall focuses on tailoring our solutions to understand the audience of the business and focus on any data available to guide our choices. this was designed using figma and is fully responsive for all devices. \n",
-    tags: [
-      {
-        name: "react.js",
-        color: "react-native-gradient",
-      },
-      {
-        name: "javascript",
-        color: "yellow-darker-yellow-text-gradient",
-      },
-      {
-        name: "email.js",
-        color: "red-different-text-gradient",
-      },
-      {
-        name: "tailwind css",
-        color: "tailwind-css-gradient",
-      },
-      {
-        name: "ui/ux focused",
-        color: "ui-gradient",
-      },
-      {
-        name: "vercel",
-        color: "expo-gradient",
-      },
-      {
-        name: "git",
-        color: "git-gradient",
-      }
-    ],
-    image: nexus,
-    live_link: "https://nexusagency.me/",
-    id: "nexus",
-  },
+  // {
+  //   name: "nexus",
+  //   description:
+  //     "an agency dedicated to providing web design, software, and marketing solutions to local businesses. \n \n from electricians to solar panel companies, we offer company redesigns and rebranding services to enhance a business's social presence and attract more clients. \n \n this agency overall focuses on tailoring our solutions to understand the audience of the business and focus on any data available to guide our choices. this was designed using figma and is fully responsive for all devices. \n",
+  //   tags: [
+  //     {
+  //       name: "react.js",
+  //       color: "react-native-gradient",
+  //     },
+  //     {
+  //       name: "javascript",
+  //       color: "yellow-darker-yellow-text-gradient",
+  //     },
+  //     {
+  //       name: "email.js",
+  //       color: "red-different-text-gradient",
+  //     },
+  //     {
+  //       name: "tailwind css",
+  //       color: "tailwind-css-gradient",
+  //     },
+  //     {
+  //       name: "ui/ux focused",
+  //       color: "ui-gradient",
+  //     },
+  //     {
+  //       name: "vercel",
+  //       color: "expo-gradient",
+  //     },
+  //     {
+  //       name: "git",
+  //       color: "git-gradient",
+  //     }
+  //   ],
+  //   image: nexus,
+  //   live_link: "https://nexusagency.me/",
+  //   id: "nexus",
+  // },
   {
     name: "knockout",
     description:
