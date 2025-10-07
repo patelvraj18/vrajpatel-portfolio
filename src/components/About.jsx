@@ -42,15 +42,7 @@ const About = () => {
 
       <p
         className="mt-4 text-secondary text-[17px] max-w 3x1 leading-[30px] ">
-        yo! my name is vraj - a skilled software engineer with experience in front-end and back-end languages and technologies. i am a recent graduate from washington university in st. louis where i majored in computer science. i am open to any new grad roles in tech. i am especially passionate about front-end development, perfecting ui/ux, and creating stunning designs that are functional.
-        <br></br>
-        <br></br>
-        i am passionate about building software that solves real world problems. i am working on <a
-          href="https://skylearn.app"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-blue-400 hover:underline"
-        >skylearn</a> – an ai active learning based study tool that helps learners, learn more effectively. scroll down to see some other projects i have worked on.
+        yo! my name is vraj - a skilled software engineer with experience in front-end and back-end languages and technologies. i am a recent graduate from washington university in st. louis where i majored in computer science. i am open to any new grad roles in tech. i am especially passionate about front-end development, perfecting ui/ux, and creating stunning designs that are functional. scroll down to see some of the projects i have worked on.
         <br></br>
         <br></br>
         coding and building is one-half of who i am. the other half is my creative side where i love to do photography and videography work. check me at <a
